@@ -1,5 +1,7 @@
 <?php
 
+use Webmozart\Assert\Assert;
+
 /**
  * Hook to add the consentAdmin module to the frontpage.
  *
@@ -8,8 +10,8 @@
  */
 function consentAdmin_hook_frontpage(&$links)
 {
-    assert(is_array($links));
-    assert(array_key_exists('links', $links));
+    Assert::isArray($links);
+    Assert::keyExists($links, 'links');
 
     $links['config'][] = [
         'href' => SimpleSAML\Module::getModuleURL('consentAdmin/consentAdmin.php'),
