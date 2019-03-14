@@ -54,7 +54,9 @@ function driveProcessingChain(
     ];
     /* we're being bridged, so add that info to the state */
     if (strpos($source, '-idp-remote|') !== false) {
-        $authProcState['saml:sp:IdP'] = substr($source, strpos($source, '|') + 1);
+        /** @var int $i */
+        $i = strpos($source, '|');
+        $authProcState['saml:sp:IdP'] = substr($source, $i + 1);
     }
 
     /*
@@ -217,8 +219,9 @@ if ($action !== null && $sp_entityid !== null) {
             $rowcount = $consent_storage->deleteConsent($hashed_user_id, $targeted_id);
             if ($rowcount > 0) {
                 $res = $translator->t("removed");
+            } else {
+                throw new \Exception("Unknown action (should not happen)");
             }
-            // Unknown action (should not happen)
         } else {
             \SimpleSAML\Logger::info('consentAdmin: unknown action');
             $res = $translator->t("unknown");
@@ -246,6 +249,7 @@ $translator = $template->getTranslator();
 $translator->includeLanguageFile('attributes'); // attribute listings translated by this dictionary
 
 $sp_empty_description = $translator->getTag('sp_empty_description');
+$sp_list = [];
 
 // Process consents for all SP
 foreach ($all_sp_metadata as $sp_entityid => $sp_values) {
