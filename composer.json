@@ -11,7 +11,7 @@
         },
         {
             "name": "Olav Morken",
-            "email": "lavmrk@gmail.com"
+            "email": "olav.morken@uninett.no"
         }
     ],
     "config": {
@@ -26,14 +26,14 @@
         }
     },
     "require": {
-        "php": ">=5.5",
+        "php": ">=5.6",
         "simplesamlphp/composer-module-installer": "~1.1",
         "simplesamlphp/simplesamlphp-module-consent": "^1.0",
         "webmozart/assert": "~1.4"
     },
     "require-dev": {
         "simplesamlphp/simplesamlphp": "^1.17",
-        "phpunit/phpunit": "~4.8.36"
+        "phpunit/phpunit": "~5.7"
     },
     "extra": {
         "ssp-mixedcase-module-name": "consentAdmin"
