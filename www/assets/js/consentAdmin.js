@@ -6,7 +6,7 @@ function checkConsent()
     var checkbox = document.getElementById("checkbox_"+show_spid);
 
     xmlHttp = GetXmlHttpObject()
-    if (xmlHttp == null) {
+    if (xmlHttp === null) {
         alert("Browser does not support HTTP Request")
         return
     }
@@ -69,8 +69,8 @@ document.addEventListener(
         }
 
         var checkbox = document.getElementsByClassName("checkbox");
-        for (var i = 0; i < checkbox.length; i++) {
-            checkbox[i].addEventListener(
+        for (var j = 0; j < checkbox.length; j++) {
+            checkbox[j].addEventListener(
                 'click',
                 checkConsent
             );
