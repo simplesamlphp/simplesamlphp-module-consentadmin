@@ -28,7 +28,7 @@
     "require": {
         "php": ">=5.6",
         "simplesamlphp/composer-module-installer": "~1.1",
-        "simplesamlphp/simplesamlphp-module-consent": "^1.0",
+        "simplesamlphp/simplesamlphp-module-consent": "^0.9",
         "webmozart/assert": "~1.4"
     },
     "require-dev": {
@@ -39,7 +39,7 @@
         "ssp-mixedcase-module-name": "consentAdmin"
     },
     "support": {
-        "issues": "https://github.com/tvdijen/simplesamlphp-module-consentadmin/issues",
-        "source": "https://github.com/tvdijen/simplesamlphp-module-consentadmin"
+        "issues": "https://github.com/simplesamlphp/simplesamlphp-module-consentadmin/issues",
+        "source": "https://github.com/simplesamlphp/simplesamlphp-module-consentadmin"
     }
 }
