@@ -39,7 +39,7 @@
         "ssp-mixedcase-module-name": "consentAdmin"
     },
     "support": {
-        "issues": "https://github.com/tvdijen/simplesamlphp-module-consentadmin/issues",
-        "source": "https://github.com/tvdijen/simplesamlphp-module-consentadmin"
+        "issues": "https://github.com/simplesamlphp/simplesamlphp-module-consentadmin/issues",
+        "source": "https://github.com/simplesamlphp/simplesamlphp-module-consentadmin"
     }
 }
