@@ -2,11 +2,11 @@
 {% extends "base.twig" %}
 
 {% block preload %}
-<link rel="stylesheet" href="/{{ baseurlpath }}module.php/consentAdmin/assets/css/consentAdmin.css">
+<link rel="stylesheet" href="{{ asset('css/consentAdmin.css, 'consentAdmin') }}">
 {% endblock %}
 
 {% block postload %}
-<script src="/{{ baseurlpath }}module.php/consentAdmin/assets/js/consentAdmin.js"></script>
+<script src="{{ asset('js/consentAdmin.js', 'consentAdmin') }}"></script>
 {% endblock %}
 
 {% block content %}
