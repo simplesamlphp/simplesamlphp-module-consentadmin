@@ -1,4 +1,5 @@
 <?php
+
 /*
  * consentAdmin - Consent administration module
  *
@@ -76,14 +77,14 @@ function driveProcessingChain(
     /*
      * Generate identifiers and hashes
      */
-    $destination = $sp_metadata['metadata-set'].'|'.$sp_entityid;
+    $destination = $sp_metadata['metadata-set'] . '|' . $sp_entityid;
 
     $targeted_id = \SimpleSAML\Module\consent\Auth\Process\Consent::getTargetedID($userid, $source, $destination);
     $attribute_hash = \SimpleSAML\Module\consent\Auth\Process\Consent::getAttributeHash($attributes, $hashAttributes);
 
-    \SimpleSAML\Logger::info('consentAdmin: user: '.$userid);
-    \SimpleSAML\Logger::info('consentAdmin: target: '.$targeted_id);
-    \SimpleSAML\Logger::info('consentAdmin: attribute: '.$attribute_hash);
+    \SimpleSAML\Logger::info('consentAdmin: user: ' . $userid);
+    \SimpleSAML\Logger::info('consentAdmin: target: ' . $targeted_id);
+    \SimpleSAML\Logger::info('consentAdmin: attribute: ' . $attribute_hash);
 
     // Return values
     return [$targeted_id, $attribute_hash, $attributes];
@@ -125,10 +126,10 @@ $idp_metadata = $metadata->getMetaData($idp_entityid, 'saml20-idp-hosted');
 // Calc correct source
 if ($as->getAuthData('saml:sp:IdP') !== null) {
     // from a remote idp (as bridge)
-    $source = 'saml20-idp-remote|'.$as->getAuthData('saml:sp:IdP');
+    $source = 'saml20-idp-remote|' . $as->getAuthData('saml:sp:IdP');
 } else {
     // from the local idp
-    $source = $idp_metadata['metadata-set'].'|'.$idp_entityid;
+    $source = $idp_metadata['metadata-set'] . '|' . $idp_entityid;
 }
 
 // Get user ID
@@ -141,8 +142,8 @@ if (isset($idp_metadata['userid.attribute']) && is_string($idp_metadata['userid.
 $userids = $attributes[$userid_attributename];
 
 if (empty($userids)) {
-    throw new \Exception('Could not generate useridentifier for storing consent. Attribute ['.
-        $userid_attributename.'] was not available.');
+    throw new \Exception('Could not generate useridentifier for storing consent. Attribute [' .
+        $userid_attributename . '] was not available.');
 }
 
 $userid = $userids[0];
@@ -160,7 +161,7 @@ if (!empty($_GET['action'])) {
     $action = $_GET["action"];
 }
 
-\SimpleSAML\Logger::critical('consentAdmin: sp: '.$sp_entityid.' action: '.$action);
+\SimpleSAML\Logger::critical('consentAdmin: sp: ' . $sp_entityid . ' action: ' . $action);
 
 // Remove services, whitch have consent disabled
 if (isset($idp_metadata['consent.disable'])) {
@@ -171,7 +172,7 @@ if (isset($idp_metadata['consent.disable'])) {
     }
 }
 
-\SimpleSAML\Logger::info('consentAdmin: '.$idp_entityid);
+\SimpleSAML\Logger::info('consentAdmin: ' . $idp_entityid);
 
 // Parse consent config
 $consent_storage = \SimpleSAML\Module\consent\Store::parseStoreConfig($cA_config->getValue('consentadmin'));
@@ -207,28 +208,22 @@ if ($action !== null && $sp_entityid !== null) {
     // Add a consent (or update if attributes have changed and old consent for SP and IdP exists)
     if ($action == 'true') {
         $isStored = $consent_storage->saveConsent($hashed_user_id, $targeted_id, $attribute_hash);
-        if ($isStored) {
-            $res = $translator->t("added");
-        } else {
-            $res = $translator->t("updated");
-        }
-        // Remove consent
     } else {
         if ($action == 'false') {
             // Got consent, so this is a request to remove it
             $rowcount = $consent_storage->deleteConsent($hashed_user_id, $targeted_id);
             if ($rowcount > 0) {
-                $res = $translator->t("removed");
+                $isStored = false;
             } else {
                 throw new \Exception("Unknown action (should not happen)");
             }
         } else {
             \SimpleSAML\Logger::info('consentAdmin: unknown action');
-            $res = $translator->t("unknown");
+            $isStored = null;
         }
     }
-    $template->data['res'] = $res;
-    $template->show();
+    $template->data['isStored'] = $isStored;
+    $template->send();
     exit;
 }
 
@@ -270,8 +265,8 @@ foreach ($all_sp_metadata as $sp_entityid => $sp_values) {
 
     // Translate attribute-names
     foreach ($attributes_new as $orig_name => $value) {
-        if (isset($template->data['attribute_'.htmlspecialchars(strtolower($orig_name))])) {
-            $old_name = $template->data['attribute_'.htmlspecialchars(strtolower($orig_name))];
+        if (isset($template->data['attribute_' . htmlspecialchars(strtolower($orig_name))])) {
+            $old_name = $template->data['attribute_' . htmlspecialchars(strtolower($orig_name))];
         }
         $name = $translator->getAttributeTranslation(strtolower($orig_name)); // translate
 
@@ -321,8 +316,8 @@ foreach ($all_sp_metadata as $sp_entityid => $sp_values) {
     $translator->includeInlineTranslation('spname', $sp_name);
     $translator->includeInlineTranslation('spdescription', $sp_description);
 
-    $sp_name = $translator->getPreferredTranslation($translator->getTag('spname'));
-    $sp_description = $translator->getPreferredTranslation($translator->getTag('spdescription'));
+    $sp_name = $translator->getPreferredTranslation($translator->getTag('spname') ?? []);
+    $sp_description = $translator->getPreferredTranslation($translator->getTag('spdescription') ?? []);
 
     // Fill out array for the template
     $sp_list[$sp_entityid] = [
