@@ -26,15 +26,15 @@
  * @return array
  */
 function driveProcessingChain(
-    $idp_metadata,
-    $source,
-    $sp_metadata,
-    $sp_entityid,
-    $attributes,
-    $userid,
-    $hashAttributes = false,
-    $excludeAttributes = []
-) {
+    array $idp_metadata,
+    string $source,
+    array $sp_metadata,
+    string $sp_entityid,
+    array $attributes,
+    string $userid,
+    bool $hashAttributes = false,
+    array $excludeAttributes = []
+): array {
     /*
      * Create a new processing chain
      */
@@ -184,7 +184,7 @@ if ($action !== null && $sp_entityid !== null) {
     // init template to enable translation of status messages
     $template = new \SimpleSAML\XHTML\Template(
         $config,
-        'consentAdmin:consentadminajax.php',
+        'consentAdmin:consentadminajax.twig',
         'consentAdmin:consentadmin'
     );
     $translator = $template->getTranslator();
@@ -244,7 +244,7 @@ foreach ($user_consent_list as $c) {
 $template_sp_content = [];
 
 // Init template
-$template = new \SimpleSAML\XHTML\Template($config, 'consentAdmin:consentadmin.php', 'consentAdmin:consentadmin');
+$template = new \SimpleSAML\XHTML\Template($config, 'consentAdmin:consentadmin.twig', 'consentAdmin:consentadmin');
 $translator = $template->getTranslator();
 $translator->includeLanguageFile('attributes'); // attribute listings translated by this dictionary
 
@@ -339,4 +339,4 @@ foreach ($all_sp_metadata as $sp_entityid => $sp_values) {
 $template->data['header'] = 'Consent Administration';
 $template->data['spList'] = $sp_list;
 $template->data['showDescription'] = $cA_config->getValue('showDescription');
-$template->show();
+$template->send();
