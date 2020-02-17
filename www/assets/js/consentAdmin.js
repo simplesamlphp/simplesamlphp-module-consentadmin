@@ -2,8 +2,8 @@ var xmlHttp;
 
 function checkConsent()
 {
-    var show_spid = this.id.charAt(this.id.length-1);
-    var checkbox = document.getElementById("checkbox_"+show_spid);
+    var show_spid = this.id.charAt(this.id.length - 1);
+    var checkbox = document.getElementById("checkbox_" + show_spid);
 
     xmlHttp = GetXmlHttpObject()
     if (xmlHttp === null) {
@@ -12,9 +12,9 @@ function checkConsent()
     }
 
     var url = "consentAdmin.php"
-    url = url+"?cv="+checkbox.value
-    url = url+"&action="+checkbox.checked
-    url = url+"&sid="+Math.random()
+    url = url + "?cv=" + checkbox.value
+    url = url + "&action=" + checkbox.checked
+    url = url + "&sid=" + Math.random()
 
     xmlHttp.onreadystatechange = function () {
         if (xmlHttp.readyState == 4 || xmlHttp.readyState == "complete") {
@@ -46,7 +46,7 @@ function GetXmlHttpObject()
 
 function toggleShowAttributes()
 {
-    var show_spid = this.id.charAt(this.id.length-1);
+    var show_spid = this.id.charAt(this.id.length - 1);
 
     var disp = document.getElementById('attributes_' + show_spid);
     var showing = document.getElementById('showing_' + show_spid);
