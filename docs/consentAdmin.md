@@ -19,7 +19,7 @@ The first thing you need to do is to enable the consentAdmin module:
 
 Next you need to copy the module config file to the config directory:
 
-    cp modules/consentAdmin/config-templates/module_config.php config
+    cp modules/consentAdmin/config-templates/module_consentAdmin.php config/
 
 Then you will need to set up the database. The consentAdmin uses the same
 table as the consent module, but you still need the set the correct
