@@ -28,9 +28,6 @@ msgstr "Paslaugos tiekėjas"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Leidimas pašalintas"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Leidimų administravimas"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Parodyti"
 
@@ -68,15 +65,6 @@ msgstr "Prisijungti"
 msgid "{consentAdmin:consentadmin:consentadmin_description1}"
 msgstr "Čia jūs galite peržiūrėti ir keisti savo leidimus paslaugų teikėjams"
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "Leidimas atnaujintas"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "Nežinoma..."
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "Leidimas pridėtas"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Tapatybė"
 
@@ -86,17 +74,17 @@ msgstr "Įterptas atributas"
 msgid "Show"
 msgstr "Parodyti"
 
-msgid "Consent Added"
+msgid "Consent added"
 msgstr "Leidimas pridėtas"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "Leidimų administravimas"
 
 msgid "Here you can view and edit your consent for the Service Providers."
 msgstr "Čia jūs galite peržiūrėti ir keisti savo leidimus paslaugų teikėjams"
 
-msgid "Unknown ..."
-msgstr "Nežinoma..."
+msgid "Unknown"
+msgstr "Nežinoma"
 
 msgid "Identity"
 msgstr "Tapatybė"
@@ -119,7 +107,7 @@ msgstr "Prisijungti"
 msgid "(name not specified)"
 msgstr "(pavadinimas nenurodytas)"
 
-msgid "Consent Updated"
+msgid "Consent updated"
 msgstr "Leidimas atnaujintas"
 
 msgid "Consent status"
@@ -145,7 +133,7 @@ msgstr ""
 "href=\"https://www.wayf.dk\">Pradžia</a> </li> <li><a "
 "href=\"https://www.wayf.dk/FAQ\">FAQ</a> </li> </ul> "
 
-msgid "Consent Removed"
+msgid "Consent removed"
 msgstr "Leidimas pašalintas"
 
 msgid "show/hide attributes"

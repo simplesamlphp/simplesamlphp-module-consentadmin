@@ -27,9 +27,6 @@ msgstr "サービスプロバイダ"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "承認が削除されました"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "承認管理"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "表示"
 
@@ -67,15 +64,6 @@ msgstr "ログイン"
 msgid "{consentAdmin:consentadmin:consentadmin_description1}"
 msgstr "ここは、サービスプロバイダの承認を表示したり編集することが出来ます。"
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "承認が更新されました"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "不明…"
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "承認が追加されました"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "識別子"
 
@@ -85,16 +73,16 @@ msgstr "挿入された属性"
 msgid "Show"
 msgstr "表示"
 
-msgid "Consent Added"
+msgid "Consent added"
 msgstr "承認が追加されました"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "承認管理"
 
 msgid "Here you can view and edit your consent for the Service Providers."
 msgstr "ここは、サービスプロバイダの承認を表示したり編集することが出来ます。"
 
-msgid "Unknown ..."
+msgid "Unknown"
 msgstr "不明…"
 
 msgid "Identity"
@@ -118,7 +106,7 @@ msgstr "ログイン"
 msgid "(name not specified)"
 msgstr "(名前無し)"
 
-msgid "Consent Updated"
+msgid "Consent updated"
 msgstr "承認が更新されました"
 
 msgid "Consent status"
@@ -144,7 +132,7 @@ msgstr ""
 "href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-frequently-asked-"
 "questions\">FAQ</a> </li> </ul> "
 
-msgid "Consent Removed"
+msgid "Consent removed"
 msgstr "承認が削除されました"
 
 msgid "show/hide attributes"

@@ -27,9 +27,6 @@ msgstr "Fournisseurs de service"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Consentement révoqué"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Administration des consentements"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Voir"
 
@@ -70,15 +67,6 @@ msgstr ""
 "Vous pouvez ici voir et modifier les consentements donnés pour les "
 "fournisseurs de service."
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "Consentement mis ) jour"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "Inconnu ..."
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "Consentement ajouté"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identité"
 
@@ -88,10 +76,10 @@ msgstr "Attribut ajouté"
 msgid "Show"
 msgstr "Voir"
 
-msgid "Consent Added"
+msgid "Consent added"
 msgstr "Consentement ajouté"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "Administration des consentements"
 
 msgid "Here you can view and edit your consent for the Service Providers."
@@ -99,8 +87,8 @@ msgstr ""
 "Vous pouvez ici voir et modifier les consentements donnés pour les "
 "fournisseurs de service."
 
-msgid "Unknown ..."
-msgstr "Inconnu ..."
+msgid "Unknown"
+msgstr "Inconnu"
 
 msgid "Identity"
 msgstr "Identité"
@@ -123,7 +111,7 @@ msgstr "Connexion"
 msgid "(name not specified)"
 msgstr "(nom non indiqué)"
 
-msgid "Consent Updated"
+msgid "Consent updated"
 msgstr "Consentement mis ) jour"
 
 msgid "Consent status"
@@ -150,7 +138,7 @@ msgstr ""
 "href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-frequently-asked-"
 "questions\">FAQ</a></li></ul> "
 
-msgid "Consent Removed"
+msgid "Consent removed"
 msgstr "Consentement révoqué"
 
 msgid "show/hide attributes"

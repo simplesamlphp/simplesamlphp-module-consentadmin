@@ -27,9 +27,6 @@ msgstr "Teenusepakkuja"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Nõusolek eemaldatud"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Nõusoleku administreerimine"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Näita"
 
@@ -68,15 +65,6 @@ msgstr "logi sisse"
 msgid "{consentAdmin:consentadmin:consentadmin_description1}"
 msgstr "Siin saad näha ja muuta teenusepakkujatega nõusolekuid."
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "Nõusolek uuendatud"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "Tundmatu..."
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "Nõusolek lisatud"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identiteet"
 
@@ -86,17 +74,17 @@ msgstr "XXXSüstitud atribuut"
 msgid "Show"
 msgstr "Näita"
 
-msgid "Consent Added"
+msgid "Consent added"
 msgstr "Nõusolek lisatud"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "Nõusoleku administreerimine"
 
 msgid "Here you can view and edit your consent for the Service Providers."
 msgstr "Siin saad näha ja muuta teenusepakkujatega nõusolekuid."
 
-msgid "Unknown ..."
-msgstr "Tundmatu..."
+msgid "Unknown"
+msgstr "Tundmatu"
 
 msgid "Identity"
 msgstr "Identiteet"
@@ -119,7 +107,7 @@ msgstr "logi sisse"
 msgid "(name not specified)"
 msgstr "(nimi määramata)"
 
-msgid "Consent Updated"
+msgid "Consent updated"
 msgstr "Nõusolek uuendatud"
 
 msgid "Consent status"
@@ -146,7 +134,7 @@ msgstr ""
 "href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-frequently-asked-"
 "questions\">KKK</a> </li> </ul>"
 
-msgid "Consent Removed"
+msgid "Consent removed"
 msgstr "Nõusolek eemaldatud"
 
 msgid "show/hide attributes"

@@ -27,9 +27,6 @@ msgstr "Fornecedor de Serviço"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Consentimento removido"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Administração de Consentimento"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Mostrar"
 
@@ -67,15 +64,6 @@ msgstr ""
 "Nesta página pode ver e editar o seu consentimento dado aos Fornecedores "
 "de Serviços."
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "Consentimento actualizado"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "Desconhecido ..."
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "Consentimento adicionado"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identidade"
 
@@ -85,10 +73,10 @@ msgstr "Atributo injectado"
 msgid "Show"
 msgstr "Mostrar"
 
-msgid "Consent Added"
+msgid "Consent added"
 msgstr "Consentimento adicionado"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "Administração de Consentimento"
 
 msgid "Here you can view and edit your consent for the Service Providers."
@@ -96,8 +84,8 @@ msgstr ""
 "Nesta página pode ver e editar o seu consentimento dado aos Fornecedores "
 "de Serviços."
 
-msgid "Unknown ..."
-msgstr "Desconhecido ..."
+msgid "Unknown"
+msgstr "Desconhecido"
 
 msgid "Identity"
 msgstr "Identidade"
@@ -120,7 +108,7 @@ msgstr "Entrar"
 msgid "(name not specified)"
 msgstr "(nome não especificado)"
 
-msgid "Consent Updated"
+msgid "Consent updated"
 msgstr "Consentimento actualizado"
 
 msgid "Consent status"
@@ -144,7 +132,7 @@ msgstr ""
 "<h3>Como remover o seu consentimento</h3> Retire a marca correspondente "
 "ao fornecedor de serviço que pretende remover."
 
-msgid "Consent Removed"
+msgid "Consent removed"
 msgstr "Consentimento removido"
 
 msgid "show/hide attributes"

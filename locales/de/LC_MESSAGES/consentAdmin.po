@@ -27,9 +27,6 @@ msgstr "Diensteanbieter"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Einverständnis entfernt"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Verwaltung von Einverständniserklärungen"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Zeige an"
 
@@ -71,15 +68,6 @@ msgstr ""
 "Hier können Sie Ihre Einverständniserklärungen für die Diensteanbieter "
 "anzeigen und bearbeiten."
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "Einverständnis aktualisiert"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "Unbekannt..."
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "Einverständnis hinzugefügt"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identität"
 
@@ -89,7 +77,7 @@ msgstr "Eingekoppeltes Attribut"
 msgid "Show"
 msgstr "Zeige an"
 
-msgid "Consent Added"
+msgid "Consent added"
 msgstr "Einverständnis hinzugefügt"
 
 msgid "Consent Administration"
@@ -100,8 +88,8 @@ msgstr ""
 "Hier können Sie Ihre Einverständniserklärungen für die Diensteanbieter "
 "anzeigen und bearbeiten."
 
-msgid "Unknown ..."
-msgstr "Unbekannt..."
+msgid "Unknown"
+msgstr "Unbekannt"
 
 msgid "Identity"
 msgstr "Identität"
@@ -124,7 +112,7 @@ msgstr "Anmeldung"
 msgid "(name not specified)"
 msgstr "(Name nicht angegeben)"
 
-msgid "Consent Updated"
+msgid "Consent updated"
 msgstr "Einverständnis aktualisiert"
 
 msgid "Consent status"
@@ -152,7 +140,7 @@ msgstr ""
 "href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-frequently-asked-"
 "questions\">FAQ</a> </li> </ul> "
 
-msgid "Consent Removed"
+msgid "Consent removed"
 msgstr "Einverständnis entfernt"
 
 msgid "show/hide attributes"

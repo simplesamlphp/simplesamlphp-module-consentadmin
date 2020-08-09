@@ -28,9 +28,6 @@ msgstr "Davatelj usluge"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Dozvola uklonjena"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Administracija dozvola"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Prikaži"
 
@@ -69,15 +66,6 @@ msgstr "Prijavi se"
 msgid "{consentAdmin:consentadmin:consentadmin_description1}"
 msgstr "Ovdje možete pregledati i mijenjati vaše dozvole davateljima usluga."
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "Dozvola ažurirana"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "Nepoznato ..."
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "Dozvola dodana"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identitet"
 
@@ -87,17 +75,17 @@ msgstr "Ubačeni atribut"
 msgid "Show"
 msgstr "Prikaži"
 
-msgid "Consent Added"
+msgid "Consent added"
 msgstr "Dozvola dodana"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "Administracija dozvola"
 
 msgid "Here you can view and edit your consent for the Service Providers."
 msgstr "Ovdje možete pregledati i mijenjati vaše dozvole davateljima usluga."
 
-msgid "Unknown ..."
-msgstr "Nepoznato ..."
+msgid "Unknown"
+msgstr "Nepoznato"
 
 msgid "Identity"
 msgstr "Identitet"
@@ -120,7 +108,7 @@ msgstr "Prijavi se"
 msgid "(name not specified)"
 msgstr "(naziv nije specificiran)"
 
-msgid "Consent Updated"
+msgid "Consent updated"
 msgstr "Dozvola ažurirana"
 
 msgid "Consent status"
@@ -147,7 +135,7 @@ msgstr ""
 "href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-frequently-asked-"
 "questions\">Pitanja i odgovori</a> </li> </ul> "
 
-msgid "Consent Removed"
+msgid "Consent removed"
 msgstr "Dozvola uklonjena"
 
 msgid "show/hide attributes"

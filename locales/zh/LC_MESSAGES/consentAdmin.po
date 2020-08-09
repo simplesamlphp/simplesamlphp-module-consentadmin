@@ -27,9 +27,6 @@ msgstr "服务提供商"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "已经移除的许可"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "管理员许可"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "显示"
 
@@ -67,15 +64,6 @@ msgstr "登陆"
 msgid "{consentAdmin:consentadmin:consentadmin_description1}"
 msgstr "在这里你可以查看和编辑你的SP许可"
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "已经更新的许可"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "未知..."
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "已经添加的许可"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "身份"
 
@@ -85,17 +73,17 @@ msgstr "注入的属性"
 msgid "Show"
 msgstr "显示"
 
-msgid "Consent Added"
+msgid "Consent added"
 msgstr "已经添加的许可"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "管理员许可"
 
 msgid "Here you can view and edit your consent for the Service Providers."
 msgstr "在这里你可以查看和编辑你的SP许可"
 
-msgid "Unknown ..."
-msgstr "未知..."
+msgid "Unknown"
+msgstr "未知"
 
 msgid "Identity"
 msgstr "身份"
@@ -118,7 +106,7 @@ msgstr "登陆"
 msgid "(name not specified)"
 msgstr "（没有指定名字）"
 
-msgid "Consent Updated"
+msgid "Consent updated"
 msgstr "已经更新的许可"
 
 msgid "Consent status"
@@ -144,7 +132,7 @@ msgstr ""
 "href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-frequently-asked-"
 "questions\">FAQ</a> </li> </ul>"
 
-msgid "Consent Removed"
+msgid "Consent removed"
 msgstr "已经移除的许可"
 
 msgid "show/hide attributes"

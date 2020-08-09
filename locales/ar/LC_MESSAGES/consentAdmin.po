@@ -28,9 +28,6 @@ msgstr "مقدم الخدمة"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "تم حذف الموافقة"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "ادارة الموافقة"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "اظهار"
 
@@ -67,15 +64,6 @@ msgstr "تسجيل الدخول"
 msgid "{consentAdmin:consentadmin:consentadmin_description1}"
 msgstr "يمكنك رؤية وتعديل موافقتك علي مشغلي الخدمات هنا "
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "تحديث الموافقة"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "غير معروف"
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "تمت اضافة الموافقة"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "الهوية"
 
@@ -85,16 +73,16 @@ msgstr "السمات التي تم تقديمها"
 msgid "Show"
 msgstr "اظهار"
 
-msgid "Consent Added"
+msgid "Consent added"
 msgstr "تمت اضافة الموافقة"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "ادارة الموافقة"
 
 msgid "Here you can view and edit your consent for the Service Providers."
 msgstr "يمكنك رؤية وتعديل موافقتك علي مشغلي الخدمات هنا "
 
-msgid "Unknown ..."
+msgid "Unknown"
 msgstr "غير معروف"
 
 msgid "Identity"
@@ -118,7 +106,7 @@ msgstr "تسجيل الدخول"
 msgid "(name not specified)"
 msgstr "الاسم غير محدد"
 
-msgid "Consent Updated"
+msgid "Consent updated"
 msgstr "تحديث الموافقة"
 
 msgid "Consent status"
@@ -143,7 +131,7 @@ msgstr ""
 "href=\"https://www.wayf.dk\">أبدا>/a></li><li><ahref=\"https://www.wayf.dk/index.php/en"
 "/about-wayf/faq-frequently-asked-questions</a> </a> </li> </ul> "
 
-msgid "Consent Removed"
+msgid "Consent removed"
 msgstr "تم حذف الموافقة"
 
 msgid "show/hide attributes"

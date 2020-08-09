@@ -27,9 +27,6 @@ msgstr "Tenesteleverandør"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Samtykke trukke tilbake"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Samtykkeadministrasjon"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Vis"
 
@@ -68,15 +65,6 @@ msgstr "logg inn"
 msgid "{consentAdmin:consentadmin:consentadmin_description1}"
 msgstr "Her kan du sjå og endra dine samtykke til tenestene."
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "Samtykke oppdatert"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "Ukjent..."
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "Samtykke lagt til"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identitet"
 
@@ -86,17 +74,17 @@ msgstr "Persondata lagt til"
 msgid "Show"
 msgstr "Vis"
 
-msgid "Consent Added"
+msgid "Consent added"
 msgstr "Samtykke lagt til"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "Samtykkeadministrasjon"
 
 msgid "Here you can view and edit your consent for the Service Providers."
 msgstr "Her kan du sjå og endra dine samtykke til tenestene."
 
-msgid "Unknown ..."
-msgstr "Ukjent..."
+msgid "Unknown"
+msgstr "Ukjent"
 
 msgid "Identity"
 msgstr "Identitet"
@@ -119,7 +107,7 @@ msgstr "logg inn"
 msgid "(name not specified)"
 msgstr "(namn ikkje spesifisert)"
 
-msgid "Consent Updated"
+msgid "Consent updated"
 msgstr "Samtykke oppdatert"
 
 msgid "Consent status"
@@ -146,7 +134,7 @@ msgstr ""
 "href=\"https://www.wayf.dk/index.php/da/om-wayf/faq-ofte-stillede-"
 "sporgsmal\">Ofte stilte spørsmål</a> </li> </ul> "
 
-msgid "Consent Removed"
+msgid "Consent removed"
 msgstr "Samtykke trukke tilbake"
 
 msgid "show/hide attributes"

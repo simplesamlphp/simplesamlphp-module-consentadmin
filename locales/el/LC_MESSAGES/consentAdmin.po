@@ -27,9 +27,6 @@ msgstr "Πάροχος Υπηρεσιών"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Η συγκατάθεση αναιρέθηκε"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Διαχείριση Δηλώσεων Συγκατάθεσης"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Εμφάνιση"
 
@@ -67,15 +64,6 @@ msgstr ""
 "Εδώ μπορείτε να δείτε και να επεξεργαστείτε τις δηλώσεις συγκατάθεσής σας"
 " για τους παρόχους υπηρεσιών"
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "Η συγκατάθεση ενημερώθηκε"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "Άγνωστο..."
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "Η συγκατάθεση προστέθηκε"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Ταυτότητα"
 
@@ -85,7 +73,7 @@ msgstr "Εισαχθέν στοιχείο"
 msgid "Show"
 msgstr "Εμφάνιση"
 
-msgid "Consent Added"
+msgid "Consent added"
 msgstr "Η συγκατάθεση προστέθηκε"
 
 msgid "Consent Administration"
@@ -96,8 +84,8 @@ msgstr ""
 "Εδώ μπορείτε να δείτε και να επεξεργαστείτε τις δηλώσεις συγκατάθεσής σας"
 " για τους παρόχους υπηρεσιών"
 
-msgid "Unknown ..."
-msgstr "Άγνωστο..."
+msgid "Unknown"
+msgstr "Άγνωστο"
 
 msgid "Identity"
 msgstr "Ταυτότητα"
@@ -120,7 +108,7 @@ msgstr "είσοδος"
 msgid "(name not specified)"
 msgstr "(χωρίς όνομα)"
 
-msgid "Consent Updated"
+msgid "Consent updated"
 msgstr "Η συγκατάθεση ενημερώθηκε"
 
 msgid "Consent status"
@@ -144,7 +132,7 @@ msgstr ""
 "<h3>Πώς να αναιρέσετε τη συγκατάθεσή σας</h3>Αποεπιλέξτε το κουτί "
 "επιλογής που αντιστοιχεί στον πάροχο υπηρεσιών"
 
-msgid "Consent Removed"
+msgid "Consent removed"
 msgstr "Η συγκατάθεση αναιρέθηκε"
 
 msgid "show/hide attributes"

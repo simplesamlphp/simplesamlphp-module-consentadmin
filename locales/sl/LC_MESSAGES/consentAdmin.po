@@ -28,9 +28,6 @@ msgstr "Ponudnik storitve"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Privolitev razveljavljena"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Upravljanje s privolitvami"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Prikaži"
 
@@ -68,15 +65,6 @@ msgstr "Prijava"
 msgid "{consentAdmin:consentadmin:consentadmin_description1}"
 msgstr "Pregled in urejanje privolitev za posamezen SP."
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "Privolitev posodobljena"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "Neznan..."
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "Privolitev dodana"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identiteta"
 
@@ -86,17 +74,17 @@ msgstr "Vrinjen atribut"
 msgid "Show"
 msgstr "Prikaži"
 
-msgid "Consent Added"
+msgid "Consent added"
 msgstr "Privolitev dodana"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "Upravljanje s privolitvami"
 
 msgid "Here you can view and edit your consent for the Service Providers."
 msgstr "Pregled in urejanje privolitev za posamezen SP."
 
-msgid "Unknown ..."
-msgstr "Neznan..."
+msgid "Unknown"
+msgstr "Neznan"
 
 msgid "Identity"
 msgstr "Identiteta"
@@ -119,7 +107,7 @@ msgstr "Prijava"
 msgid "(name not specified)"
 msgstr "(brez naziva)"
 
-msgid "Consent Updated"
+msgid "Consent updated"
 msgstr "Privolitev posodobljena"
 
 msgid "Consent status"
@@ -145,7 +133,7 @@ msgstr ""
 "<ul> <li><a href=\"https://aai.arnes.si\">Start</a> </li> <li><a "
 "href=\"https://aai.arnes.si\">FAQ</a> </li> </ul>"
 
-msgid "Consent Removed"
+msgid "Consent removed"
 msgstr "Privolitev razveljavljena"
 
 msgid "show/hide attributes"

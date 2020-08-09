@@ -27,9 +27,6 @@ msgstr "ספק שירות"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "הסכמה הוסרה"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "מנהל הסכמותת"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "הצג"
 
@@ -67,15 +64,6 @@ msgstr "התחבר"
 msgid "{consentAdmin:consentadmin:consentadmin_description1}"
 msgstr "כאן אתה יכול לראות ולערוך את הסכמותך לספקי השירות"
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "הסכמה עודכנה"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "לא ידוע..."
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "הסכמה הוספה"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "זהות"
 
@@ -85,17 +73,17 @@ msgstr "מאפיין מוזרק"
 msgid "Show"
 msgstr "הצג"
 
-msgid "Consent Added"
+msgid "Consent added"
 msgstr "הסכמה הוספה"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "מנהל הסכמותת"
 
 msgid "Here you can view and edit your consent for the Service Providers."
 msgstr "כאן אתה יכול לראות ולערוך את הסכמותך לספקי השירות"
 
-msgid "Unknown ..."
-msgstr "לא ידוע..."
+msgid "Unknown"
+msgstr "לא ידוע"
 
 msgid "Identity"
 msgstr "זהות"
@@ -118,7 +106,7 @@ msgstr "התחבר"
 msgid "(name not specified)"
 msgstr "(לא ניתן שם)"
 
-msgid "Consent Updated"
+msgid "Consent updated"
 msgstr "הסכמה עודכנה"
 
 msgid "Consent status"
@@ -144,7 +132,7 @@ msgstr ""
 "</li> <li><a href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-"
 "frequently-asked-questions\">שאלות נפוצות</a> </li> </ul> "
 
-msgid "Consent Removed"
+msgid "Consent removed"
 msgstr "הסכמה הוסרה"
 
 msgid "show/hide attributes"

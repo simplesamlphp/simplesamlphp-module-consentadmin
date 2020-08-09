@@ -27,9 +27,6 @@ msgstr "Service Provider"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Consent telah dibuang"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Administrasi Consent"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Perlihatkan"
 
@@ -70,15 +67,6 @@ msgstr ""
 "Disini anda dapat melihat dan mengedit consent anda untuk Service "
 "Provider."
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "Consent telah diupdate"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "Tidak diketahui..."
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "Consent telah ditambahkan"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identitas"
 
@@ -88,10 +76,10 @@ msgstr "Attribut yang diinjeksi"
 msgid "Show"
 msgstr "Perlihatkan"
 
-msgid "Consent Added"
+msgid "Consent added"
 msgstr "Consent telah ditambahkan"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "Administrasi Consent"
 
 msgid "Here you can view and edit your consent for the Service Providers."
@@ -99,8 +87,8 @@ msgstr ""
 "Disini anda dapat melihat dan mengedit consent anda untuk Service "
 "Provider."
 
-msgid "Unknown ..."
-msgstr "Tidak diketahui..."
+msgid "Unknown"
+msgstr "Tidak diketahui"
 
 msgid "Identity"
 msgstr "Identitas"
@@ -123,7 +111,7 @@ msgstr "login"
 msgid "(name not specified)"
 msgstr "(Nama tidak diisi)"
 
-msgid "Consent Updated"
+msgid "Consent updated"
 msgstr "Consent telah diupdate"
 
 msgid "Consent status"
@@ -150,7 +138,7 @@ msgstr ""
 "href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-frequently-asked-"
 "questions\">FAQ</a> </li> </ul>"
 
-msgid "Consent Removed"
+msgid "Consent removed"
 msgstr "Consent telah dibuang"
 
 msgid "show/hide attributes"

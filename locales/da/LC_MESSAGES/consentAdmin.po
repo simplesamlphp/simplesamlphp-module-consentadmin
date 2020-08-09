@@ -27,9 +27,6 @@ msgstr "Service Provider"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Samtykke slettet"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Administrer dine samtykker"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Vis"
 
@@ -90,15 +87,6 @@ msgstr ""
 "at videregive oplysninger til tjenesteudbyderen. <p>Nedenfor er opført de"
 " tjenester, som du for øjeblikket har givet løbende samtykke til:</a>"
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "Samtykke Opdateret"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "Ukendt ..."
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "Samtykke givet"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identitet"
 
@@ -108,10 +96,10 @@ msgstr "Injiceret attribut"
 msgid "Show"
 msgstr "Vis"
 
-msgid "Consent Added"
+msgid "Consent added"
 msgstr "Samtykke givet"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "Administrer dine samtykker"
 
 msgid "Here you can view and edit your consent for the Service Providers."
@@ -126,8 +114,8 @@ msgstr ""
 "at videregive oplysninger til tjenesteudbyderen. <p>Nedenfor er opført de"
 " tjenester, som du for øjeblikket har givet løbende samtykke til:</a>"
 
-msgid "Unknown ..."
-msgstr "Ukendt ..."
+msgid "Unknown"
+msgstr "Ukendt"
 
 msgid "Identity"
 msgstr "Identitet"
@@ -150,7 +138,7 @@ msgstr "login"
 msgid "(name not specified)"
 msgstr "(navn ikke angivet)"
 
-msgid "Consent Updated"
+msgid "Consent updated"
 msgstr "Samtykke Opdateret"
 
 msgid "Consent status"
@@ -190,7 +178,7 @@ msgstr ""
 "href=\"https://www.wayf.dk/index.php/da/om-wayf/faq-ofte-stillede-"
 "sporgsmal\">FAQ</a> </li></ul>"
 
-msgid "Consent Removed"
+msgid "Consent removed"
 msgstr "Samtykke slettet"
 
 msgid "show/hide attributes"

@@ -28,9 +28,6 @@ msgstr "Furnizor de servicii"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Acordul a fost înlăturat"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Administrarea acordurilor (consimțămintelor)"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Arată"
 
@@ -69,16 +66,6 @@ msgid "{consentAdmin:consentadmin:consentadmin_description1}"
 msgstr ""
 "Aici puteți edita acordul/consimțământul dumneavoastră pentru Furnizorii "
 "de servicii."
-
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "Acordul a fost actualizat"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "Necunoscut ..."
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "Acordul a fost adăugat"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identitate"
 
@@ -88,10 +75,10 @@ msgstr "Atribut introdus"
 msgid "Show"
 msgstr "Arată"
 
-msgid "Consent Added"
+msgid "Consent added"
 msgstr "Acordul a fost adăugat"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "Administrarea acordurilor (consimțămintelor)"
 
 msgid "Here you can view and edit your consent for the Service Providers."
@@ -99,8 +86,8 @@ msgstr ""
 "Aici puteți edita acordul/consimțământul dumneavoastră pentru Furnizorii "
 "de servicii."
 
-msgid "Unknown ..."
-msgstr "Necunoscut ..."
+msgid "Unknown"
+msgstr "Necunoscut"
 
 msgid "Identity"
 msgstr "Identitate"
@@ -123,7 +110,7 @@ msgstr "autentificare"
 msgid "(name not specified)"
 msgstr "(nu a fost specificat numele)"
 
-msgid "Consent Updated"
+msgid "Consent updated"
 msgstr "Acordul a fost actualizat"
 
 msgid "Consent status"
@@ -149,7 +136,7 @@ msgstr ""
 "href=\"https://www.wayf.dk\">Start</a></li><li><a "
 "href=\"https://www.wayf.dk/FAQ\">FAQ</a></li></ul>"
 
-msgid "Consent Removed"
+msgid "Consent removed"
 msgstr "Acordul a fost înlăturat"
 
 msgid "show/hide attributes"

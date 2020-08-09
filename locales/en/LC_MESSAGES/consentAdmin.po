@@ -24,12 +24,6 @@ msgstr "attributes"
 msgid "{consentAdmin:consentadmin:service_provider_header}"
 msgstr "Service Provider"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "Consent Removed"
-
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Consent Administration"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Show"
 
@@ -70,15 +64,6 @@ msgstr "login"
 msgid "{consentAdmin:consentadmin:consentadmin_description1}"
 msgstr "Here you can view and edit your consent for the Service Providers."
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "Consent Updated"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "Unknown ..."
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "Consent Added"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identity"
 
@@ -88,17 +73,17 @@ msgstr "Injected attribut"
 msgid "Show"
 msgstr "Show"
 
-msgid "Consent Added"
-msgstr "Consent Added"
+msgid "Consent added"
+msgstr "Consent added"
 
-msgid "Consent Administration"
-msgstr "Consent Administration"
+msgid "Consent administration"
+msgstr "Consent administration"
 
 msgid "Here you can view and edit your consent for the Service Providers."
 msgstr "Here you can view and edit your consent for the Service Providers."
 
-msgid "Unknown ..."
-msgstr "Unknown ..."
+msgid "Unknown"
+msgstr "Unknown"
 
 msgid "Identity"
 msgstr "Identity"
@@ -121,8 +106,8 @@ msgstr "login"
 msgid "(name not specified)"
 msgstr "(name not specified)"
 
-msgid "Consent Updated"
-msgstr "Consent Updated"
+msgid "Consent updated"
+msgstr "Consent updated"
 
 msgid "Consent status"
 msgstr "Consent status"
@@ -150,8 +135,8 @@ msgstr ""
 "<li><a href=\"https://www.wayf.dk/FAQ\">FAQ</a> </li>"
 "</ul>"
 
-msgid "Consent Removed"
-msgstr "Consent Removed"
+msgid "Consent removed"
+msgstr "Consent removed"
 
 msgid "show/hide attributes"
 msgstr "show/hide attributes"

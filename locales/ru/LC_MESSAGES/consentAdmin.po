@@ -28,9 +28,6 @@ msgstr "Сервис провайдер"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Согласие отозвано"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Управление согласием"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Показать"
 
@@ -69,15 +66,6 @@ msgstr ""
 "В этом поле можно просмотреть и отредактировать текст вашего согласия для"
 " сервис провайдеров."
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "Согласие обновлено"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "Неизвестно.."
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "Согласие добавлено"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Идентификационная информация"
 
@@ -87,10 +75,10 @@ msgstr "Введенный атрибут"
 msgid "Show"
 msgstr "Показать"
 
-msgid "Consent Added"
+msgid "Consent added"
 msgstr "Согласие добавлено"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "Управление согласием"
 
 msgid "Here you can view and edit your consent for the Service Providers."
@@ -98,8 +86,8 @@ msgstr ""
 "В этом поле можно просмотреть и отредактировать текст вашего согласия для"
 " сервис провайдеров."
 
-msgid "Unknown ..."
-msgstr "Неизвестно.."
+msgid "Unknown"
+msgstr "Неизвестно"
 
 msgid "Identity"
 msgstr "Идентификационная информация"
@@ -122,7 +110,7 @@ msgstr "Вход"
 msgid "(name not specified)"
 msgstr "(имя не указано)"
 
-msgid "Consent Updated"
+msgid "Consent updated"
 msgstr "Согласие обновлено"
 
 msgid "Consent status"
@@ -147,7 +135,7 @@ msgstr ""
 "<h3>Ссылки</h3> <ul> <li><a href=\"https://www.wayf.dk\">Start</a> </li> "
 "<li><a href=\"https://www.wayf.dk/FAQ\">FAQ</a> </li> </ul>"
 
-msgid "Consent Removed"
+msgid "Consent removed"
 msgstr "Согласие отозвано"
 
 msgid "show/hide attributes"

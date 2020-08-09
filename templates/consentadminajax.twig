@@ -1,9 +1,9 @@
 {% block content %}
 {% if isStored == true %}
-{{ 'added'|trans }}
+{{ 'Consent added'|trans }}
 {% elseif isStored == false %}
-{{ 'updated'|trans }}
+{{ 'Consent updated'|trans }}
 {% else %}
-{{ 'unknown'|trans }}
+{{ 'Consent unknown'|trans }}
 {% endif %}
 {% endblock %}

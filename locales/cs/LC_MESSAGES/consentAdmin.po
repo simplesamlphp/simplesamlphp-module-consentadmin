@@ -28,9 +28,6 @@ msgstr "Poskytovatel služeb"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Odebrané povolení"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Administrace povolení"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Zobrazit"
 
@@ -68,15 +65,6 @@ msgstr "přihlášení"
 msgid "{consentAdmin:consentadmin:consentadmin_description1}"
 msgstr "Zde můžete zobrazit a upravit vaše povolení pro Poskytovatele služeb."
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "Aktualizované povolení"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "Neznámý ..."
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "Udělené povolení"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identita"
 
@@ -86,17 +74,17 @@ msgstr "Vložený atribut"
 msgid "Show"
 msgstr "Zobrazit"
 
-msgid "Consent Added"
+msgid "Consent added"
 msgstr "Udělené povolení"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "Administrace povolení"
 
 msgid "Here you can view and edit your consent for the Service Providers."
 msgstr "Zde můžete zobrazit a upravit vaše povolení pro Poskytovatele služeb."
 
-msgid "Unknown ..."
-msgstr "Neznámý ..."
+msgid "Unknown"
+msgstr "Neznámý"
 
 msgid "Identity"
 msgstr "Identita"
@@ -119,7 +107,7 @@ msgstr "přihlášení"
 msgid "(name not specified)"
 msgstr "(jméno nespecifikováno)"
 
-msgid "Consent Updated"
+msgid "Consent updated"
 msgstr "Aktualizované povolení"
 
 msgid "Consent status"
@@ -145,7 +133,7 @@ msgstr ""
 "href=\"https://www.wayf.dk\">Start</a></li><li><a "
 "href=\"https://www.wayf.dk/FAQ\">FAQ</a></li></ul>"
 
-msgid "Consent Removed"
+msgid "Consent removed"
 msgstr "Odebrané povolení"
 
 msgid "show/hide attributes"

@@ -27,9 +27,6 @@ msgstr "Zerbitzu hornitzailea"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Onespena ezabatua"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Onespenaren kudeaketa"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Erakutsi"
 
@@ -68,15 +65,6 @@ msgstr "sartu"
 msgid "{consentAdmin:consentadmin:consentadmin_description1}"
 msgstr "Hemen, zerbitzu hornitzaileentzat onespena bistara eta edita dezakezu"
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "Onespena eguneratua"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "Ezezaguna..."
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "Onespena gehitua"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identitatea"
 
@@ -86,17 +74,17 @@ msgstr "Atributua sartuta"
 msgid "Show"
 msgstr "Erakutsi"
 
-msgid "Consent Added"
+msgid "Consent added"
 msgstr "Onespena gehitua"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "Onespenaren kudeaketa"
 
 msgid "Here you can view and edit your consent for the Service Providers."
 msgstr "Hemen, zerbitzu hornitzaileentzat onespena bistara eta edita dezakezu"
 
-msgid "Unknown ..."
-msgstr "Ezezaguna..."
+msgid "Unknown"
+msgstr "Ezezaguna"
 
 msgid "Identity"
 msgstr "Identitatea"
@@ -119,7 +107,7 @@ msgstr "sartu"
 msgid "(name not specified)"
 msgstr "(izena ez da zehaztu)"
 
-msgid "Consent Updated"
+msgid "Consent updated"
 msgstr "Onespena eguneratua"
 
 msgid "Consent status"
@@ -146,7 +134,7 @@ msgstr ""
 "href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-frequently-asked-"
 "questions\">FAQ</a> </li> </ul>"
 
-msgid "Consent Removed"
+msgid "Consent removed"
 msgstr "Onespena ezabatua"
 
 msgid "show/hide attributes"

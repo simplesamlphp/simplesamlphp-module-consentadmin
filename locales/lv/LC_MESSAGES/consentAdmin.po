@@ -28,9 +28,6 @@ msgstr "Servisa piegādātājs"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Noņemtie noteikumi"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Noteikumu administrators"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Parādīt"
 
@@ -69,15 +66,6 @@ msgstr "pieslēgties"
 msgid "{consentAdmin:consentadmin:consentadmin_description1}"
 msgstr "Šeit Jūs varat aplūkot un labot noteikumus priekš servisu piegādātājiem"
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "Uzlabotie noteikumi"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "Nezināms ..."
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "Pievienotie noteikumi"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identitāte"
 
@@ -87,17 +75,17 @@ msgstr "Ievietots atribūts"
 msgid "Show"
 msgstr "Parādīt"
 
-msgid "Consent Added"
+msgid "Consent added"
 msgstr "Pievienotie noteikumi"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "Noteikumu administrators"
 
 msgid "Here you can view and edit your consent for the Service Providers."
 msgstr "Šeit Jūs varat aplūkot un labot noteikumus priekš servisu piegādātājiem"
 
-msgid "Unknown ..."
-msgstr "Nezināms ..."
+msgid "Unknown"
+msgstr "Nezināms"
 
 msgid "Identity"
 msgstr "Identitāte"
@@ -120,7 +108,7 @@ msgstr "pieslēgties"
 msgid "(name not specified)"
 msgstr "(vārds nav norādīts)"
 
-msgid "Consent Updated"
+msgid "Consent updated"
 msgstr "Uzlabotie noteikumi"
 
 msgid "Consent status"
@@ -147,7 +135,7 @@ msgstr ""
 "href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-frequently-asked-"
 "questions\">BUJ</a> </li> </ul> "
 
-msgid "Consent Removed"
+msgid "Consent removed"
 msgstr "Noņemtie noteikumi"
 
 msgid "show/hide attributes"

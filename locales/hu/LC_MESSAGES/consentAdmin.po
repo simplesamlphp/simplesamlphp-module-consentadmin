@@ -27,9 +27,6 @@ msgstr "Szolgáltató"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Hozzájárulás visszavonva"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Adatkezelési hozzájárulások kezelése"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Attribútumok megjelenítése"
 
@@ -67,15 +64,6 @@ msgstr ""
 "Ezen az oldalon lehet szolgáltatónként (SP) az adakezelési "
 "hozzájárulásokat megtekinteni és módosítani."
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "Hozzájárulás frissítve"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "Ismeretlen ..."
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "Hozzájárulás rögzítve"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Azonosság"
 
@@ -85,10 +73,10 @@ msgstr "Attribútum beszúrása"
 msgid "Show"
 msgstr "Attribútumok megjelenítése"
 
-msgid "Consent Added"
+msgid "Consent added"
 msgstr "Hozzájárulás rögzítve"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "Adatkezelési hozzájárulások kezelése"
 
 msgid "Here you can view and edit your consent for the Service Providers."
@@ -96,8 +84,8 @@ msgstr ""
 "Ezen az oldalon lehet szolgáltatónként (SP) az adakezelési "
 "hozzájárulásokat megtekinteni és módosítani."
 
-msgid "Unknown ..."
-msgstr "Ismeretlen ..."
+msgid "Unknown"
+msgstr "Ismeretlen"
 
 msgid "Identity"
 msgstr "Azonosság"
@@ -120,7 +108,7 @@ msgstr "Belépés"
 msgid "(name not specified)"
 msgstr "(nincs név)"
 
-msgid "Consent Updated"
+msgid "Consent updated"
 msgstr "Hozzájárulás frissítve"
 
 msgid "Consent status"
@@ -144,7 +132,7 @@ msgstr ""
 "<h3>Hogyan kell visszavonni egy hozzájárulást?</h3> A szolgáltatóhoz "
 "tartozó jelölőnégyzetben szüntesse meg a kijelölést!"
 
-msgid "Consent Removed"
+msgid "Consent removed"
 msgstr "Hozzájárulás visszavonva"
 
 msgid "show/hide attributes"

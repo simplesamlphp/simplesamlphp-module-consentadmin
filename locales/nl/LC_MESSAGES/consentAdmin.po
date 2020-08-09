@@ -27,9 +27,6 @@ msgstr "Service Provider"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Toestemming Verwijderd"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Toestemming Beheer"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Bekijk"
 
@@ -70,15 +67,6 @@ msgstr ""
 "Hier kunt u uw verleende toestemmingen voor dienstverleners bekijken en "
 "bewerken."
 
-msgid "{consentAdmin:consentadmin:updated}"
-msgstr "Toestemming Bijgewerkt"
-
-msgid "{consentAdmin:consentadmin:unknown}"
-msgstr "Onbekend..."
-
-msgid "{consentAdmin:consentadmin:added}"
-msgstr "Toestemming Toegevoegd"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identiteit"
 
@@ -88,25 +76,25 @@ msgstr "Geïnjecteerd attibuut"
 msgid "Show"
 msgstr "Bekijk"
 
-msgid "Consent Added"
-msgstr "Toestemming Toegevoegd"
+msgid "Consent added"
+msgstr "Toestemming toegevoegd"
 
 msgid "Consent Administration"
-msgstr "Toestemming Beheer"
+msgstr "Toestemmingenbeheer"
 
 msgid "Here you can view and edit your consent for the Service Providers."
 msgstr ""
 "Hier kunt u uw verleende toestemmingen voor dienstverleners bekijken en "
 "bewerken."
 
-msgid "Unknown ..."
-msgstr "Onbekend..."
+msgid "Unknown"
+msgstr "Onbekend
 
 msgid "Identity"
 msgstr "Identiteit"
 
 msgid "The purpose of the service is"
-msgstr "Het nut van de server is"
+msgstr "Het doel van de dienst is"
 
 msgid "Hide"
 msgstr "Verberg"
@@ -123,11 +111,11 @@ msgstr "login"
 msgid "(name not specified)"
 msgstr "(naam niet opgegeven)"
 
-msgid "Consent Updated"
-msgstr "Toestemming Bijgewerkt"
+msgid "Consent updated"
+msgstr "Toestemming bijgewerkt"
 
 msgid "Consent status"
-msgstr "Toestemming Status"
+msgstr "Uw huidige toestemming"
 
 msgid "(no description)"
 msgstr "(geen omschrijving)"
@@ -144,14 +132,14 @@ msgid ""
 "<li><a href=\"https://www.wayf.dk/FAQ\">FAQ</a> </li>"
 "</ul>"
 msgstr ""
-"<h3>Hoe verwijderdt u toestemmingen</h3> Vinkt u het vakje af dat "
+"<h3>Hoe verwijdert u toestemmingen</h3> Vinkt u het vakje af dat "
 "overeenkomt met de dienstverlener <h3>Links</h3> <ul> <li><a "
 "href=\"https://www.wayf.dk\">Start</a> </li> <li><a "
 "href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-frequently-asked-"
 "questions\">FAQ</a> </li> </ul>"
 
-msgid "Consent Removed"
-msgstr "Toestemming Verwijderd"
+msgid "Consent removed"
+msgstr "Toestemming ingetrokken"
 
 msgid "show/hide attributes"
 msgstr "bekijk/verberg attributen"
