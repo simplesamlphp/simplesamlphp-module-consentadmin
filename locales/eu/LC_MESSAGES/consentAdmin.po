@@ -15,14 +15,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:status_header}"
-msgstr "Onespenaren egoera"
-
 msgid "{consentAdmin:consentadmin:attributes_text}"
 msgstr "Atributuak"
-
-msgid "{consentAdmin:consentadmin:service_provider_header}"
-msgstr "Zerbitzu hornitzailea"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Onespena ezabatua"

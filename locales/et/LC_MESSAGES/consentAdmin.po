@@ -15,14 +15,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:status_header}"
-msgstr "Nõusoleku olek"
-
 msgid "{consentAdmin:consentadmin:attributes_text}"
 msgstr "atribuudid"
-
-msgid "{consentAdmin:consentadmin:service_provider_header}"
-msgstr "Teenusepakkuja"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Nõusolek eemaldatud"

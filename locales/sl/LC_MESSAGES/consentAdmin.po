@@ -16,14 +16,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:status_header}"
-msgstr "Status privolitve"
-
 msgid "{consentAdmin:consentadmin:attributes_text}"
 msgstr "atributi"
-
-msgid "{consentAdmin:consentadmin:service_provider_header}"
-msgstr "Ponudnik storitve"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Privolitev razveljavljena"

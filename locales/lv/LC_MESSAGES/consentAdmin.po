@@ -16,14 +16,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:status_header}"
-msgstr "Noteikumu statuss"
-
 msgid "{consentAdmin:consentadmin:attributes_text}"
 msgstr "atribūti"
-
-msgid "{consentAdmin:consentadmin:service_provider_header}"
-msgstr "Servisa piegādātājs"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Noņemtie noteikumi"

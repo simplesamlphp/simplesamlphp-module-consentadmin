@@ -15,14 +15,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:status_header}"
-msgstr "Estado del consentimiento"
-
 msgid "{consentAdmin:consentadmin:attributes_text}"
 msgstr "Atributos"
-
-msgid "{consentAdmin:consentadmin:service_provider_header}"
-msgstr "Proveedor de servicio"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Consentimiento eliminado"

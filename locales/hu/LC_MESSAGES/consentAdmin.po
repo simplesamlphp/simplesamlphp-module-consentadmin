@@ -15,14 +15,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:status_header}"
-msgstr "Hozzájárulás állapota"
-
 msgid "{consentAdmin:consentadmin:attributes_text}"
 msgstr "."
-
-msgid "{consentAdmin:consentadmin:service_provider_header}"
-msgstr "Szolgáltató"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Hozzájárulás visszavonva"
