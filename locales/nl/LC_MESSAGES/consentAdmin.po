@@ -15,14 +15,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:attributes_text}"
-msgstr "attributen"
+msgid "Attributes have changed"
+msgstr "Attributen zijn gewijzigd"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Toestemming Verwijderd"
-
-msgid "{consentAdmin:consentadmin:show}"
-msgstr "Bekijk"
 
 msgid "{consentAdmin:consentadmin:attribute_org}"
 msgstr "Organisatie"
@@ -32,12 +29,6 @@ msgstr "Geïnjecteerd attibuut"
 
 msgid "{consentAdmin:consentadmin:show_hide_attributes}"
 msgstr "bekijk/verberg attributen"
-
-msgid "{consentAdmin:consentadmin:consentadmin_purpose}"
-msgstr "Het nut van de server is"
-
-msgid "{consentAdmin:consentadmin:hide}"
-msgstr "Verberg"
 
 msgid "{consentAdmin:consentadmin:sp_empty_description}"
 msgstr "(geen omschrijving)"

@@ -39,16 +39,16 @@
                 {% endif %}
                 </span>
                 <span class="show_hide" id="show_hide_{{ loop.index0 }}">
-                    <span id="showing_{{ loop.index0 }}">{{ '{consentAdmin:consentadmin:show}'|trans }}</span>
-                    <span id="hiding_{{ loop.index0 }}">{{ '{consentAdmin:consentadmin:hide}'|trans }}</span>
-                    {{ '{consentAdmin:consentadmin:attributes_text}'|trans }}
+                    <span id="showing_{{ loop.index0 }}">{{ 'Show'|trans }}</span>
+                    <span id="hiding_{{ loop.index0 }}">{{ 'Hide'|trans }}</span>
+                    {{ 'attributes'|trans }}
                 </span>
             </span>
         </td>
         <td class="caAttributes">
             <div id="attributes_{{ loop.index0 }}">
             {% if showDescription %}
-                <p>{{ '{consentAdmin:consentadmin:consentadmin_purpose}'|trans }}{{ spValues.description|escape('html') }}</p>
+                <p>{{ 'The purpose of the service is'|trans }}{{ spValues.description|escape('html') }}</p>
             {% endif %}
                 <ul>
                 {% for attrName, attrValue in spValues.attributes_by_sp %}
@@ -68,7 +68,8 @@
             </div>
         </td>
         <td class="caAllowed">
-            <input class="checkbox" id="checkbox_{{ loop.index0 }}" value='{{ spValues.consentValue }}' type='checkbox'{% if spValues.consentStatus == 'ok'%} checked="checked"{% endif %} /><span id="consentText_{{ loop.index0 }}">{% if spValues.consentStatus == 'changed' %}attributes has changed{% endif %}</span>
+            <input class="checkbox" id="checkbox_{{ loop.index0 }}" value='{{ spValues.consentValue }}' type='checkbox'{% if spValues.consentStatus == 'ok'%} checked="checked"{% endif %} />
+            <span id="consentText_{{ loop.index0 }}">{% if spValues.consentStatus == 'changed' %}{{ 'Attributes have changed'|trans }}{% endif %}</span>
         </td>
     </tr>
 {% endfor %}
@@ -76,7 +77,7 @@
 
 <p>{{ '{consentAdmin:consentadmin:consentadmin_description2}'|trans|raw }}</p>
 
-<h2>Logout</h2>
-<p><a href="/{{ baseurlpath }}module.php/consentAdmin/consentAdmin.php?logout=1">Logout</a></p>
+<h2>{{ 'Logout'|trans }}</h2>
+<p><a href="/{{ baseurlpath }}module.php/consentAdmin/consentAdmin.php?logout=1">{{ 'Logout'|trans }}</a></p>
 
 {% endblock %}

@@ -15,14 +15,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:attributes_text}"
-msgstr "."
+msgid "Attributes have changed"
+msgstr "Attributes have changed"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Hozzájárulás visszavonva"
-
-msgid "{consentAdmin:consentadmin:show}"
-msgstr "Attribútumok megjelenítése"
 
 msgid "{consentAdmin:consentadmin:attribute_org}"
 msgstr "Intézmény"
@@ -32,12 +29,6 @@ msgstr "Attribútum beszúrása"
 
 msgid "{consentAdmin:consentadmin:show_hide_attributes}"
 msgstr "Attribútumok megjelenítése/rejtése"
-
-msgid "{consentAdmin:consentadmin:consentadmin_purpose}"
-msgstr "A szolgáltatás leírása"
-
-msgid "{consentAdmin:consentadmin:hide}"
-msgstr "Attribútumok rejtése"
 
 msgid "{consentAdmin:consentadmin:sp_empty_description}"
 msgstr "(nincs leírás)"

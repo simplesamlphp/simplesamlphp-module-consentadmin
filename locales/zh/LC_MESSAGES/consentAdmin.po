@@ -15,14 +15,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:attributes_text}"
-msgstr "属性"
+msgid "Attributes have changed"
+msgstr "Attributes have changed"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "已经移除的许可"
-
-msgid "{consentAdmin:consentadmin:show}"
-msgstr "显示"
 
 msgid "{consentAdmin:consentadmin:attribute_org}"
 msgstr "组织"
@@ -32,12 +29,6 @@ msgstr "注入的属性"
 
 msgid "{consentAdmin:consentadmin:show_hide_attributes}"
 msgstr "显示/隐藏属性"
-
-msgid "{consentAdmin:consentadmin:consentadmin_purpose}"
-msgstr "该服务的用途"
-
-msgid "{consentAdmin:consentadmin:hide}"
-msgstr "隐藏"
 
 msgid "{consentAdmin:consentadmin:sp_empty_description}"
 msgstr "（没有描述）"

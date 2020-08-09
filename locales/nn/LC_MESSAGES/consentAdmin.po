@@ -15,14 +15,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:attributes_text}"
-msgstr "persondata"
+msgid "Attributes have changed"
+msgstr "Attributes have changed"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Samtykke trukke tilbake"
-
-msgid "{consentAdmin:consentadmin:show}"
-msgstr "Vis"
 
 msgid "{consentAdmin:consentadmin:attribute_org}"
 msgstr "Organisasjon"
@@ -32,12 +29,6 @@ msgstr "Persondata lagt til"
 
 msgid "{consentAdmin:consentadmin:show_hide_attributes}"
 msgstr "vis/skjul personinformasjon"
-
-msgid "{consentAdmin:consentadmin:consentadmin_purpose}"
-msgstr "Formålet med tenesta er"
-
-msgid "{consentAdmin:consentadmin:hide}"
-msgstr "Skjul"
 
 msgid "{consentAdmin:consentadmin:sp_empty_description}"
 msgstr "(mangler informasjon)"

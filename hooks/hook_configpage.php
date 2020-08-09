@@ -9,7 +9,7 @@ function consentAdmin_hook_configpage(\SimpleSAML\XHTML\Template &$template): vo
 {
     $template->data['links']['consentAdmin'] = [
         'href' => SimpleSAML\Module::getModuleURL('consentAdmin/consentAdmin.php'),
-        'text' => \SimpleSAML\Locale\Translate::noop('Consent administration'),
+        'text' => 'Consent administration',
     ];
     $template->getLocalization()->addModuleDomain('consentAdmin');
 }

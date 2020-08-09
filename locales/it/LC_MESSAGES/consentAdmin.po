@@ -15,14 +15,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:attributes_text}"
-msgstr "attributi"
+msgid "Attributes have changed"
+msgstr "Attributes have changed"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Consenso Rimosso"
-
-msgid "{consentAdmin:consentadmin:show}"
-msgstr "Mostra"
 
 msgid "{consentAdmin:consentadmin:attribute_org}"
 msgstr "Organizzazione"
@@ -32,12 +29,6 @@ msgstr "Attributo inserito"
 
 msgid "{consentAdmin:consentadmin:show_hide_attributes}"
 msgstr "Mostra/nascondi attributi"
-
-msgid "{consentAdmin:consentadmin:consentadmin_purpose}"
-msgstr "Lo scopo di questo servizio è"
-
-msgid "{consentAdmin:consentadmin:hide}"
-msgstr "Nascondi"
 
 msgid "{consentAdmin:consentadmin:sp_empty_description}"
 msgstr "(nessuna descrizione)"

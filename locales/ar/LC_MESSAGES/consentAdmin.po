@@ -16,14 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:attributes_text}"
-msgstr "السمات"
+msgid "Attributes have changed"
+msgstr "Attributes have changed"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "تم حذف الموافقة"
-
-msgid "{consentAdmin:consentadmin:show}"
-msgstr "اظهار"
 
 msgid "{consentAdmin:consentadmin:attribute_org}"
 msgstr "المنظمة"
@@ -33,12 +30,6 @@ msgstr "السمات التي تم تقديمها"
 
 msgid "{consentAdmin:consentadmin:show_hide_attributes}"
 msgstr "اظهر/ اخفي السمات"
-
-msgid "{consentAdmin:consentadmin:consentadmin_purpose}"
-msgstr "غرض الخدمة هو"
-
-msgid "{consentAdmin:consentadmin:hide}"
-msgstr "اخفاء"
 
 msgid "{consentAdmin:consentadmin:sp_empty_description}"
 msgstr "لا يوجد وصف"

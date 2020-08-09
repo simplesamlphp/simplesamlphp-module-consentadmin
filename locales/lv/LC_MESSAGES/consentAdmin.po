@@ -16,14 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:attributes_text}"
-msgstr "atribūti"
+msgid "Attributes have changed"
+msgstr "Attributes have changed"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Noņemtie noteikumi"
-
-msgid "{consentAdmin:consentadmin:show}"
-msgstr "Parādīt"
 
 msgid "{consentAdmin:consentadmin:attribute_org}"
 msgstr "Organizācija"
@@ -33,12 +30,6 @@ msgstr "Ievietots atribūts"
 
 msgid "{consentAdmin:consentadmin:show_hide_attributes}"
 msgstr "rādīšanas/slēpšanas atribūti"
-
-msgid "{consentAdmin:consentadmin:consentadmin_purpose}"
-msgstr "Šī servisa nolūks ir"
-
-msgid "{consentAdmin:consentadmin:hide}"
-msgstr "Slēpt"
 
 msgid "{consentAdmin:consentadmin:sp_empty_description}"
 msgstr "(nav apraksta)"

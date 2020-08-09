@@ -15,11 +15,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:attributes_text}"
-msgstr "attributes"
-
-msgid "{consentAdmin:consentadmin:show}"
-msgstr "Show"
+msgid "Attributes have changed"
+msgstr "Attributes have changed"
 
 msgid "{consentAdmin:consentadmin:attribute_org}"
 msgstr "Organisation"
@@ -29,12 +26,6 @@ msgstr "Injected attribut"
 
 msgid "{consentAdmin:consentadmin:show_hide_attributes}"
 msgstr "show/hide attributes"
-
-msgid "{consentAdmin:consentadmin:consentadmin_purpose}"
-msgstr "The purpose of the service is"
-
-msgid "{consentAdmin:consentadmin:hide}"
-msgstr "Hide"
 
 msgid "{consentAdmin:consentadmin:sp_empty_description}"
 msgstr "(no description)"

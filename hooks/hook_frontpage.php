@@ -14,7 +14,7 @@ function consentAdmin_hook_frontpage(array &$links): void
 
     $links['config'][] = [
         'href' => SimpleSAML\Module::getModuleURL('consentAdmin/consentAdmin.php'),
-        'text' => '{consentAdmin:consentadmin:link_consentAdmin}',
+        'text' => 'Consent administration',
     ];
 }
 

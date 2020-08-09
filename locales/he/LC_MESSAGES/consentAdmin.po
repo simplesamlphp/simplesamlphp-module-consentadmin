@@ -15,14 +15,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:attributes_text}"
-msgstr "מאפיינים"
+msgid "Attributes have changed"
+msgstr "Attributes have changed"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "הסכמה הוסרה"
-
-msgid "{consentAdmin:consentadmin:show}"
-msgstr "הצג"
 
 msgid "{consentAdmin:consentadmin:attribute_org}"
 msgstr "אירגון"
@@ -32,12 +29,6 @@ msgstr "מאפיין מוזרק"
 
 msgid "{consentAdmin:consentadmin:show_hide_attributes}"
 msgstr "הראה\\הסתר מאפיינים"
-
-msgid "{consentAdmin:consentadmin:consentadmin_purpose}"
-msgstr "מטרת השירות היא"
-
-msgid "{consentAdmin:consentadmin:hide}"
-msgstr "הסתר"
 
 msgid "{consentAdmin:consentadmin:sp_empty_description}"
 msgstr "(אין תיאור)"

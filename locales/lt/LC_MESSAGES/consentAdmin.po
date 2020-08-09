@@ -16,14 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:attributes_text}"
-msgstr "atributai"
+msgid "Attributes have changed"
+msgstr "Attributes have changed"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Leidimas pašalintas"
-
-msgid "{consentAdmin:consentadmin:show}"
-msgstr "Parodyti"
 
 msgid "{consentAdmin:consentadmin:attribute_org}"
 msgstr "Organizacija"
@@ -33,12 +30,6 @@ msgstr "Įterptas atributas"
 
 msgid "{consentAdmin:consentadmin:show_hide_attributes}"
 msgstr "Rodyti/slėpti atributus"
-
-msgid "{consentAdmin:consentadmin:consentadmin_purpose}"
-msgstr "Paslaugos paskirtis yra"
-
-msgid "{consentAdmin:consentadmin:hide}"
-msgstr "Paslėpti"
 
 msgid "{consentAdmin:consentadmin:sp_empty_description}"
 msgstr "(apibūdinimas nenurodytas)"

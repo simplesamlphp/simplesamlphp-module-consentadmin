@@ -15,14 +15,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:attributes_text}"
-msgstr "στοιχείων"
+msgid "Attributes have changed"
+msgstr "Attributes have changed"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Η συγκατάθεση αναιρέθηκε"
-
-msgid "{consentAdmin:consentadmin:show}"
-msgstr "Εμφάνιση"
 
 msgid "{consentAdmin:consentadmin:attribute_org}"
 msgstr "Οργανισμός"
@@ -32,12 +29,6 @@ msgstr "Εισαχθέν στοιχείο"
 
 msgid "{consentAdmin:consentadmin:show_hide_attributes}"
 msgstr "εμφάνιση/απόκρυψη στοιχείων"
-
-msgid "{consentAdmin:consentadmin:consentadmin_purpose}"
-msgstr "Ο σκοπός της υπηρεσίας είναι"
-
-msgid "{consentAdmin:consentadmin:hide}"
-msgstr "Απόκρυψη"
 
 msgid "{consentAdmin:consentadmin:sp_empty_description}"
 msgstr "(χωρίς περιγραφή)"

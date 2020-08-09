@@ -15,14 +15,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:attributes_text}"
-msgstr "atribuudid"
+msgid "Attributes have changed"
+msgstr "Attributes have changed"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Nõusolek eemaldatud"
-
-msgid "{consentAdmin:consentadmin:show}"
-msgstr "Näita"
 
 msgid "{consentAdmin:consentadmin:attribute_org}"
 msgstr "Organisatsioon"
@@ -32,12 +29,6 @@ msgstr "XXXSüstitud atribuut"
 
 msgid "{consentAdmin:consentadmin:show_hide_attributes}"
 msgstr "näita/peida atribuudid"
-
-msgid "{consentAdmin:consentadmin:consentadmin_purpose}"
-msgstr "Selle teenuse eesmärk on"
-
-msgid "{consentAdmin:consentadmin:hide}"
-msgstr "Peida"
 
 msgid "{consentAdmin:consentadmin:sp_empty_description}"
 msgstr "(kirjeldus puudub)"

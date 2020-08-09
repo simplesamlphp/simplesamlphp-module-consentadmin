@@ -15,14 +15,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:attributes_text}"
-msgstr "attribut"
+msgid "Attributes have changed"
+msgstr "Attributes have changed"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Samtycke borttaget"
-
-msgid "{consentAdmin:consentadmin:show}"
-msgstr "Visa"
 
 msgid "{consentAdmin:consentadmin:attribute_org}"
 msgstr "Organisation"
@@ -32,12 +29,6 @@ msgstr "Tillfört attribut"
 
 msgid "{consentAdmin:consentadmin:show_hide_attributes}"
 msgstr "visa/göm attribut"
-
-msgid "{consentAdmin:consentadmin:consentadmin_purpose}"
-msgstr "Systet med tjänsten är"
-
-msgid "{consentAdmin:consentadmin:hide}"
-msgstr "Göm"
 
 msgid "{consentAdmin:consentadmin:sp_empty_description}"
 msgstr "(ingen beskrivning)"

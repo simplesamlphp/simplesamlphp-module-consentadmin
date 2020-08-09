@@ -16,14 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:attributes_text}"
-msgstr "atributy"
+msgid "Attributes have changed"
+msgstr "Attributes have changed"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Odebrané povolení"
-
-msgid "{consentAdmin:consentadmin:show}"
-msgstr "Zobrazit"
 
 msgid "{consentAdmin:consentadmin:attribute_org}"
 msgstr "Organizace"
@@ -33,12 +30,6 @@ msgstr "Vložený atribut"
 
 msgid "{consentAdmin:consentadmin:show_hide_attributes}"
 msgstr "zobrazit/skrýt atributy"
-
-msgid "{consentAdmin:consentadmin:consentadmin_purpose}"
-msgstr "Účel služby je"
-
-msgid "{consentAdmin:consentadmin:hide}"
-msgstr "Skrýt"
 
 msgid "{consentAdmin:consentadmin:sp_empty_description}"
 msgstr "(žádný popis)"

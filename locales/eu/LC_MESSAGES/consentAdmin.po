@@ -15,14 +15,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:attributes_text}"
-msgstr "Atributuak"
+msgid "Attributes have changed"
+msgstr "Attributes have changed"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Onespena ezabatua"
-
-msgid "{consentAdmin:consentadmin:show}"
-msgstr "Erakutsi"
 
 msgid "{consentAdmin:consentadmin:attribute_org}"
 msgstr "Erakundea"
@@ -32,12 +29,6 @@ msgstr "Atributua sartuta"
 
 msgid "{consentAdmin:consentadmin:show_hide_attributes}"
 msgstr "erakutsi/ezkutatu atributuak"
-
-msgid "{consentAdmin:consentadmin:consentadmin_purpose}"
-msgstr "Zerbitzuaren xedea hau da"
-
-msgid "{consentAdmin:consentadmin:hide}"
-msgstr "Ezkutatu"
 
 msgid "{consentAdmin:consentadmin:sp_empty_description}"
 msgstr "(deskribapenik gabe)"

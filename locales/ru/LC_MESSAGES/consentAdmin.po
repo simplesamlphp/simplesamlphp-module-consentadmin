@@ -16,14 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:attributes_text}"
-msgstr "атрибуты"
+msgid "Attributes have changed"
+msgstr "Attributes have changed"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Согласие отозвано"
-
-msgid "{consentAdmin:consentadmin:show}"
-msgstr "Показать"
 
 msgid "{consentAdmin:consentadmin:attribute_org}"
 msgstr "Организация"
@@ -33,12 +30,6 @@ msgstr "Введенный атрибут"
 
 msgid "{consentAdmin:consentadmin:show_hide_attributes}"
 msgstr "Показать/скрыть атрибуты"
-
-msgid "{consentAdmin:consentadmin:consentadmin_purpose}"
-msgstr "Целью сервиса является"
-
-msgid "{consentAdmin:consentadmin:hide}"
-msgstr "Скрыть"
 
 msgid "{consentAdmin:consentadmin:sp_empty_description}"
 msgstr "(описание отсутствует)"

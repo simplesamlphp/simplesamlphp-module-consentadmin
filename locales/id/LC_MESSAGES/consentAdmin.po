@@ -15,14 +15,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{consentAdmin:consentadmin:attributes_text}"
-msgstr "Attribute"
+msgid "Attributes have changed"
+msgstr "Attributes have changed"
 
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Consent telah dibuang"
-
-msgid "{consentAdmin:consentadmin:show}"
-msgstr "Perlihatkan"
 
 msgid "{consentAdmin:consentadmin:attribute_org}"
 msgstr "Organisasi"
@@ -32,12 +29,6 @@ msgstr "Attribut yang diinjeksi"
 
 msgid "{consentAdmin:consentadmin:show_hide_attributes}"
 msgstr "Tunjukkan/sembunyikan attribute"
-
-msgid "{consentAdmin:consentadmin:consentadmin_purpose}"
-msgstr "Tujuan dari layanan ini adalah"
-
-msgid "{consentAdmin:consentadmin:hide}"
-msgstr "Sembunyikan"
 
 msgid "{consentAdmin:consentadmin:sp_empty_description}"
 msgstr "(Tidak ada penjelasan)"
