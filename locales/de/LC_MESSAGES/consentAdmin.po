@@ -24,7 +24,7 @@ msgstr "Zeige an"
 msgid "Consent added"
 msgstr "Einverständnis hinzugefügt"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "Verwaltung von Einverständniserklärungen"
 
 msgid "Here you can view and edit your consent for the Service Providers."

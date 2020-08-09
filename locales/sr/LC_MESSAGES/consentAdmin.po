@@ -25,7 +25,7 @@ msgstr "Prikaži"
 msgid "Consent added"
 msgstr "Dozvola dodata"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "Administracija dozvola"
 
 msgid "Here you can view and edit your consent for the Service Providers."

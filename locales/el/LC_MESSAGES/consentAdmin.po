@@ -24,7 +24,7 @@ msgstr "Εμφάνιση"
 msgid "Consent added"
 msgstr "Η συγκατάθεση προστέθηκε"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "Διαχείριση Δηλώσεων Συγκατάθεσης"
 
 msgid "Here you can view and edit your consent for the Service Providers."

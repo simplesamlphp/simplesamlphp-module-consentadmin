@@ -24,7 +24,7 @@ msgstr "Bekijk"
 msgid "Consent added"
 msgstr "Toestemming toegevoegd"
 
-msgid "Consent Administration"
+msgid "Consent administration"
 msgstr "Toestemmingenbeheer"
 
 msgid "Here you can view and edit your consent for the Service Providers."
