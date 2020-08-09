@@ -61,9 +61,6 @@ msgstr ""
 msgid "{consentAdmin:consentadmin:login}"
 msgstr "登陆"
 
-msgid "{consentAdmin:consentadmin:consentadmin_description1}"
-msgstr "在这里你可以查看和编辑你的SP许可"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "身份"
 

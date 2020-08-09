@@ -62,9 +62,6 @@ msgstr ""
 msgid "{consentAdmin:consentadmin:login}"
 msgstr "logg inn"
 
-msgid "{consentAdmin:consentadmin:consentadmin_description1}"
-msgstr "Her kan du sjå og endra dine samtykke til tenestene."
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identitet"
 

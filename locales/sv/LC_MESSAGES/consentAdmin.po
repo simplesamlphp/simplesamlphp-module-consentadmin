@@ -62,9 +62,6 @@ msgstr ""
 msgid "{consentAdmin:consentadmin:login}"
 msgstr "Logga in"
 
-msgid "{consentAdmin:consentadmin:consentadmin_description1}"
-msgstr "Här kan du se och ändra dina samtycken för olika tjänsteleverantörer."
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identitet"
 

@@ -62,11 +62,6 @@ msgstr ""
 msgid "{consentAdmin:consentadmin:login}"
 msgstr "login"
 
-msgid "{consentAdmin:consentadmin:consentadmin_description1}"
-msgstr ""
-"Hier kunt u uw verleende toestemmingen voor dienstverleners bekijken en "
-"bewerken."
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identiteit"
 

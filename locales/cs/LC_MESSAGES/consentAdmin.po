@@ -62,9 +62,6 @@ msgstr ""
 msgid "{consentAdmin:consentadmin:login}"
 msgstr "přihlášení"
 
-msgid "{consentAdmin:consentadmin:consentadmin_description1}"
-msgstr "Zde můžete zobrazit a upravit vaše povolení pro Poskytovatele služeb."
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identita"
 

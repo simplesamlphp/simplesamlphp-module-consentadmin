@@ -61,9 +61,6 @@ msgstr ""
 msgid "{consentAdmin:consentadmin:login}"
 msgstr "تسجيل الدخول"
 
-msgid "{consentAdmin:consentadmin:consentadmin_description1}"
-msgstr "يمكنك رؤية وتعديل موافقتك علي مشغلي الخدمات هنا "
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "الهوية"
 

@@ -63,9 +63,6 @@ msgstr ""
 msgid "{consentAdmin:consentadmin:login}"
 msgstr "Prijavi se"
 
-msgid "{consentAdmin:consentadmin:consentadmin_description1}"
-msgstr "Ovde možete pregledati i menjati vaše dozvole davaocima servisa."
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identitet"
 

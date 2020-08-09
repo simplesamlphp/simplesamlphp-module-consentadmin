@@ -62,9 +62,6 @@ msgstr ""
 msgid "{consentAdmin:consentadmin:login}"
 msgstr "logi sisse"
 
-msgid "{consentAdmin:consentadmin:consentadmin_description1}"
-msgstr "Siin saad näha ja muuta teenusepakkujatega nõusolekuid."
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identiteet"
 

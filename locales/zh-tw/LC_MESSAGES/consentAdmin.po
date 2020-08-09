@@ -61,9 +61,6 @@ msgstr ""
 msgid "{consentAdmin:consentadmin:login}"
 msgstr "登入"
 
-msgid "{consentAdmin:consentadmin:consentadmin_description1}"
-msgstr "這邊可以檢視及修改您同意的服務提供者。"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "身分"
 

@@ -59,11 +59,6 @@ msgstr ""
 msgid "{consentAdmin:consentadmin:login}"
 msgstr "Entrar"
 
-msgid "{consentAdmin:consentadmin:consentadmin_description1}"
-msgstr ""
-"Nesta página pode ver e editar o seu consentimento dado aos Fornecedores "
-"de Serviços."
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identidade"
 

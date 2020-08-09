@@ -62,9 +62,6 @@ msgstr ""
 msgid "{consentAdmin:consentadmin:login}"
 msgstr "Prisijungti"
 
-msgid "{consentAdmin:consentadmin:consentadmin_description1}"
-msgstr "Čia jūs galite peržiūrėti ir keisti savo leidimus paslaugų teikėjams"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Tapatybė"
 

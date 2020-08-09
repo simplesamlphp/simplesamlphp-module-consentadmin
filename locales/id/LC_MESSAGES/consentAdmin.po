@@ -62,11 +62,6 @@ msgstr ""
 msgid "{consentAdmin:consentadmin:login}"
 msgstr "login"
 
-msgid "{consentAdmin:consentadmin:consentadmin_description1}"
-msgstr ""
-"Disini anda dapat melihat dan mengedit consent anda untuk Service "
-"Provider."
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identitas"
 

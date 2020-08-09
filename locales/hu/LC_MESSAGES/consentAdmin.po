@@ -59,11 +59,6 @@ msgstr ""
 msgid "{consentAdmin:consentadmin:login}"
 msgstr "Belépés"
 
-msgid "{consentAdmin:consentadmin:consentadmin_description1}"
-msgstr ""
-"Ezen az oldalon lehet szolgáltatónként (SP) az adakezelési "
-"hozzájárulásokat megtekinteni és módosítani."
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Azonosság"
 

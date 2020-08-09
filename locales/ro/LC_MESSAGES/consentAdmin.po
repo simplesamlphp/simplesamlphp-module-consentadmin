@@ -62,10 +62,6 @@ msgstr ""
 msgid "{consentAdmin:consentadmin:login}"
 msgstr "autentificare"
 
-msgid "{consentAdmin:consentadmin:consentadmin_description1}"
-msgstr ""
-"Aici puteți edita acordul/consimțământul dumneavoastră pentru Furnizorii "
-"de servicii."
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identitate"
 

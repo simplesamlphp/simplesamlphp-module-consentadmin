@@ -62,9 +62,6 @@ msgstr ""
 msgid "{consentAdmin:consentadmin:login}"
 msgstr "sartu"
 
-msgid "{consentAdmin:consentadmin:consentadmin_description1}"
-msgstr "Hemen, zerbitzu hornitzaileentzat onespena bistara eta edita dezakezu"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identitatea"
 

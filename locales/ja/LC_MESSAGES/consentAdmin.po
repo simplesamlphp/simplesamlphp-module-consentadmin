@@ -61,9 +61,6 @@ msgstr ""
 msgid "{consentAdmin:consentadmin:login}"
 msgstr "ログイン"
 
-msgid "{consentAdmin:consentadmin:consentadmin_description1}"
-msgstr "ここは、サービスプロバイダの承認を表示したり編集することが出来ます。"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "識別子"
 

@@ -62,11 +62,6 @@ msgstr ""
 msgid "{consentAdmin:consentadmin:login}"
 msgstr "connessione"
 
-msgid "{consentAdmin:consentadmin:consentadmin_description1}"
-msgstr ""
-"Qui è possibile vedere e modificare i consensi per i vari Service "
-"Provider."
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identità"
 

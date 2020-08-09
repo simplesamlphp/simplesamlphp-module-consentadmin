@@ -62,9 +62,6 @@ msgstr ""
 msgid "{consentAdmin:consentadmin:login}"
 msgstr "Prijava"
 
-msgid "{consentAdmin:consentadmin:consentadmin_description1}"
-msgstr "Pregled in urejanje privolitev za posamezen SP."
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identiteta"
 

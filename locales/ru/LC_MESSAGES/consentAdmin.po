@@ -61,11 +61,6 @@ msgstr ""
 msgid "{consentAdmin:consentadmin:login}"
 msgstr "Вход"
 
-msgid "{consentAdmin:consentadmin:consentadmin_description1}"
-msgstr ""
-"В этом поле можно просмотреть и отредактировать текст вашего согласия для"
-" сервис провайдеров."
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Идентификационная информация"
 

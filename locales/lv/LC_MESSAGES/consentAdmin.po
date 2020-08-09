@@ -63,9 +63,6 @@ msgstr ""
 msgid "{consentAdmin:consentadmin:login}"
 msgstr "pieslēgties"
 
-msgid "{consentAdmin:consentadmin:consentadmin_description1}"
-msgstr "Šeit Jūs varat aplūkot un labot noteikumus priekš servisu piegādātājiem"
-
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identitāte"
 
