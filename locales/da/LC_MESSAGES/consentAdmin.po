@@ -18,54 +18,6 @@ msgstr ""
 msgid "Attributes have changed"
 msgstr "Attributes have changed"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "Samtykke slettet"
-
-msgid "{consentAdmin:consentadmin:attribute_org}"
-msgstr "Organisation"
-
-msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "Injiceret attribut"
-
-msgid "{consentAdmin:consentadmin:show_hide_attributes}"
-msgstr "vis/skjul attributter"
-
-msgid "{consentAdmin:consentadmin:sp_empty_description}"
-msgstr "(ingen beskrivelse)"
-
-msgid "{consentAdmin:consentadmin:service_providers_for}"
-msgstr "Service Providers for"
-
-msgid "{consentAdmin:consentadmin:consentadmin_description2}"
-msgstr ""
-"<h3>Sådan sletter du et samtykke</h3>Fjern fluebenet ud for tjenesten, "
-"samtykket tilhører.<h3>Hvilke data gemmer WAYF om dig?</h3><ul><li>Når du"
-" giver dit samtykke, henter WAYF dine oplysninger fra din institution og "
-"sender de relevante videre til tjenesteudbyderen<li>Ingen af "
-"oplysningerne gemmes af WAYF<li>Hvis du har bedt WAYF huske dit samtykke,"
-" gemmes personhenførbare data heller ikke hos WAYF. Oplysningen om, at du"
-" har givet dit samtykke, gemmes på en ikke-personhenførbar "
-"måde</ul><h3>Hvilke rettigheder har du?</h3>Du har ret til at trække et "
-"samtykke tilbage.<h3>Hvor længe gemmes dine samtykker?</h3>Et samtykke "
-"slettes tre år efter, at du sidst har benyttet det.<h3>Hvordan beskyttes "
-"mine oplysninger?</h3>WAYF foretager behandlinger af personoplysninger i "
-"henhold til persondataloven (lov nr. 429 af 31. maj 2000 med senere "
-"ændringer). Du kan læse nærmere om registreredes rettigheder i "
-"persondatalovens afsnit III.<a "
-"href=\"http://www.datatilsynet.dk/lovgivning/persondataloven/\">Persondataloven</a><h3>Links</h3><ul><li><a"
-" href=\"https://www.wayf.dk\">Start</a> </li><li><a "
-"href=\"https://www.wayf.dk/index.php/da/om-wayf/faq-ofte-stillede-"
-"sporgsmal\">FAQ</a> </li></ul>"
-
-msgid "{consentAdmin:consentadmin:login}"
-msgstr "login"
-
-msgid "{consentAdmin:consentadmin:attribute_id}"
-msgstr "Identitet"
-
-msgid "Injected attribut"
-msgstr "Injiceret attribut"
-
 msgid "Show"
 msgstr "Vis"
 
@@ -104,12 +56,6 @@ msgstr "Service Provider"
 
 msgid "Service Providers for"
 msgstr "Service Providers for"
-
-msgid "login"
-msgstr "login"
-
-msgid "(name not specified)"
-msgstr "(navn ikke angivet)"
 
 msgid "Consent updated"
 msgstr "Samtykke Opdateret"

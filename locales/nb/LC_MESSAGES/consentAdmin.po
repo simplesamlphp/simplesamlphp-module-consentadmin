@@ -18,41 +18,6 @@ msgstr ""
 msgid "Attributes have changed"
 msgstr "Attributes have changed"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "Samtykke trukket tilbake"
-
-msgid "{consentAdmin:consentadmin:attribute_org}"
-msgstr "Organisasjon"
-
-msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "Persondata lagt til"
-
-msgid "{consentAdmin:consentadmin:show_hide_attributes}"
-msgstr "vis/skjul persondata"
-
-msgid "{consentAdmin:consentadmin:sp_empty_description}"
-msgstr "(ingen beskrivelse)"
-
-msgid "{consentAdmin:consentadmin:service_providers_for}"
-msgstr "Tjenesteleverandører for"
-
-msgid "{consentAdmin:consentadmin:consentadmin_description2}"
-msgstr ""
-"<h3>Hvordan trekke samtykke tilbake</h3> Fjern haken i boksen for gitte "
-"tjenestetilbyder <h3>Lenker</h3> <ul> <li><a "
-"href=\"https://www.wayf.dk\">Start</a> </li> <li><a "
-"href=\"https://www.wayf.dk/index.php/da/om-wayf/faq-ofte-stillede-"
-"sporgsmal\">Ofte stilte spørsmål</a> </li> </ul> "
-
-msgid "{consentAdmin:consentadmin:login}"
-msgstr "login"
-
-msgid "{consentAdmin:consentadmin:attribute_id}"
-msgstr "Identitet"
-
-msgid "Injected attribut"
-msgstr "Persondata lagt til"
-
 msgid "Show"
 msgstr "Vis"
 
@@ -82,12 +47,6 @@ msgstr "Tjenesteleverandør"
 
 msgid "Service Providers for"
 msgstr "Tjenesteleverandører for"
-
-msgid "login"
-msgstr "login"
-
-msgid "(name not specified)"
-msgstr "(navn ikke spesifisert)"
 
 msgid "Consent updated"
 msgstr "Samtykke oppdatert"

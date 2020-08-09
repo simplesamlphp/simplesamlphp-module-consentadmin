@@ -19,39 +19,6 @@ msgstr ""
 msgid "Attributes have changed"
 msgstr "Attributes have changed"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "تم حذف الموافقة"
-
-msgid "{consentAdmin:consentadmin:attribute_org}"
-msgstr "المنظمة"
-
-msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "السمات التي تم تقديمها"
-
-msgid "{consentAdmin:consentadmin:show_hide_attributes}"
-msgstr "اظهر/ اخفي السمات"
-
-msgid "{consentAdmin:consentadmin:sp_empty_description}"
-msgstr "لا يوجد وصف"
-
-msgid "{consentAdmin:consentadmin:service_providers_for}"
-msgstr "مشغلي الخدمة ل"
-
-msgid "{consentAdmin:consentadmin:consentadmin_description2}"
-msgstr ""
-"لحذف موافقتك</h3>الغي  صندوق مشغل الخدمة<h3>روابط</h3> <ul> <li><a "
-"href=\"https://www.wayf.dk\">أبدا>/a></li><li><ahref=\"https://www.wayf.dk/index.php/en"
-"/about-wayf/faq-frequently-asked-questions</a> </a> </li> </ul> "
-
-msgid "{consentAdmin:consentadmin:login}"
-msgstr "تسجيل الدخول"
-
-msgid "{consentAdmin:consentadmin:attribute_id}"
-msgstr "الهوية"
-
-msgid "Injected attribut"
-msgstr "السمات التي تم تقديمها"
-
 msgid "Show"
 msgstr "اظهار"
 
@@ -81,12 +48,6 @@ msgstr "مقدم الخدمة"
 
 msgid "Service Providers for"
 msgstr "مشغلي الخدمة ل"
-
-msgid "login"
-msgstr "تسجيل الدخول"
-
-msgid "(name not specified)"
-msgstr "الاسم غير محدد"
 
 msgid "Consent updated"
 msgstr "تحديث الموافقة"

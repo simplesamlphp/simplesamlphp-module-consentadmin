@@ -18,41 +18,6 @@ msgstr ""
 msgid "Attributes have changed"
 msgstr "Attributes have changed"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "Consent telah dibuang"
-
-msgid "{consentAdmin:consentadmin:attribute_org}"
-msgstr "Organisasi"
-
-msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "Attribut yang diinjeksi"
-
-msgid "{consentAdmin:consentadmin:show_hide_attributes}"
-msgstr "Tunjukkan/sembunyikan attribute"
-
-msgid "{consentAdmin:consentadmin:sp_empty_description}"
-msgstr "(Tidak ada penjelasan)"
-
-msgid "{consentAdmin:consentadmin:service_providers_for}"
-msgstr "Service Provider untuk"
-
-msgid "{consentAdmin:consentadmin:consentadmin_description2}"
-msgstr ""
-"<h3>Bagaimana cara menghapus consent anda</h3> Hapus centak pada kotak "
-"service provider yang anda maksud <h3>Link</h3> <ul> <li><a "
-"href=\"https://www.wayf.dk\">Mulai</a> </li> <li><a "
-"href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-frequently-asked-"
-"questions\">FAQ</a> </li> </ul>"
-
-msgid "{consentAdmin:consentadmin:login}"
-msgstr "login"
-
-msgid "{consentAdmin:consentadmin:attribute_id}"
-msgstr "Identitas"
-
-msgid "Injected attribut"
-msgstr "Attribut yang diinjeksi"
-
 msgid "Show"
 msgstr "Perlihatkan"
 
@@ -84,12 +49,6 @@ msgstr "Service Provider"
 
 msgid "Service Providers for"
 msgstr "Service Provider untuk"
-
-msgid "login"
-msgstr "login"
-
-msgid "(name not specified)"
-msgstr "(Nama tidak diisi)"
 
 msgid "Consent updated"
 msgstr "Consent telah diupdate"

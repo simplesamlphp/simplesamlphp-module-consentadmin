@@ -19,41 +19,6 @@ msgstr ""
 msgid "Attributes have changed"
 msgstr "Attributes have changed"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "Dozvola uklonjena"
-
-msgid "{consentAdmin:consentadmin:attribute_org}"
-msgstr "Ustanova"
-
-msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "Ubačeni atribut"
-
-msgid "{consentAdmin:consentadmin:show_hide_attributes}"
-msgstr "prikaži/sakrij atribute"
-
-msgid "{consentAdmin:consentadmin:sp_empty_description}"
-msgstr "(nema opisa)"
-
-msgid "{consentAdmin:consentadmin:service_providers_for}"
-msgstr "Davatelji usluga za"
-
-msgid "{consentAdmin:consentadmin:consentadmin_description2}"
-msgstr ""
-"<h3>Kako obrisati dozvolu</h3> Maknite kvačicu iz polja koje se odnosi na"
-" davatelja usluge <h3>Poveznice</h3> <ul> <li><a "
-"href=\"https://www.wayf.dk\">Početna stranica</a> </li> <li><a "
-"href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-frequently-asked-"
-"questions\">Pitanja i odgovori</a> </li> </ul> "
-
-msgid "{consentAdmin:consentadmin:login}"
-msgstr "Prijavi se"
-
-msgid "{consentAdmin:consentadmin:attribute_id}"
-msgstr "Identitet"
-
-msgid "Injected attribut"
-msgstr "Ubačeni atribut"
-
 msgid "Show"
 msgstr "Prikaži"
 
@@ -83,12 +48,6 @@ msgstr "Davatelj usluge"
 
 msgid "Service Providers for"
 msgstr "Davatelji usluga za"
-
-msgid "login"
-msgstr "Prijavi se"
-
-msgid "(name not specified)"
-msgstr "(naziv nije specificiran)"
 
 msgid "Consent updated"
 msgstr "Dozvola ažurirana"

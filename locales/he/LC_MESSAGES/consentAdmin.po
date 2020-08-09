@@ -18,40 +18,6 @@ msgstr ""
 msgid "Attributes have changed"
 msgstr "Attributes have changed"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "הסכמה הוסרה"
-
-msgid "{consentAdmin:consentadmin:attribute_org}"
-msgstr "אירגון"
-
-msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "מאפיין מוזרק"
-
-msgid "{consentAdmin:consentadmin:show_hide_attributes}"
-msgstr "הראה\\הסתר מאפיינים"
-
-msgid "{consentAdmin:consentadmin:sp_empty_description}"
-msgstr "(אין תיאור)"
-
-msgid "{consentAdmin:consentadmin:service_providers_for}"
-msgstr "ספקי שירות עבור"
-
-msgid "{consentAdmin:consentadmin:consentadmin_description2}"
-msgstr ""
-"<h3>איך להסיר את הסכמתך</h3> לחץ בתיבה המתאימה לספק השירות "
-"<h3>קישורים</h3>  <ul> <li><a href=\"https://www.wayf.dk\">התחלה</a> "
-"</li> <li><a href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-"
-"frequently-asked-questions\">שאלות נפוצות</a> </li> </ul> "
-
-msgid "{consentAdmin:consentadmin:login}"
-msgstr "התחבר"
-
-msgid "{consentAdmin:consentadmin:attribute_id}"
-msgstr "זהות"
-
-msgid "Injected attribut"
-msgstr "מאפיין מוזרק"
-
 msgid "Show"
 msgstr "הצג"
 
@@ -81,12 +47,6 @@ msgstr "ספק שירות"
 
 msgid "Service Providers for"
 msgstr "ספקי שירות עבור"
-
-msgid "login"
-msgstr "התחבר"
-
-msgid "(name not specified)"
-msgstr "(לא ניתן שם)"
 
 msgid "Consent updated"
 msgstr "הסכמה עודכנה"

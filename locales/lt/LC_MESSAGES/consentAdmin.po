@@ -19,40 +19,6 @@ msgstr ""
 msgid "Attributes have changed"
 msgstr "Attributes have changed"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "Leidimas pašalintas"
-
-msgid "{consentAdmin:consentadmin:attribute_org}"
-msgstr "Organizacija"
-
-msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "Įterptas atributas"
-
-msgid "{consentAdmin:consentadmin:show_hide_attributes}"
-msgstr "Rodyti/slėpti atributus"
-
-msgid "{consentAdmin:consentadmin:sp_empty_description}"
-msgstr "(apibūdinimas nenurodytas)"
-
-msgid "{consentAdmin:consentadmin:service_providers_for}"
-msgstr "Paslaugos tiekėjai"
-
-msgid "{consentAdmin:consentadmin:consentadmin_description2}"
-msgstr ""
-"<h3>Kaip pašalinti savo leidimą</h3> Panaikinkite pažymėjimą ties "
-"atitinkamu paslaugos teikėju <h3>Nuorodos</h3> <ul> <li><a "
-"href=\"https://www.wayf.dk\">Pradžia</a> </li> <li><a "
-"href=\"https://www.wayf.dk/FAQ\">FAQ</a> </li> </ul> "
-
-msgid "{consentAdmin:consentadmin:login}"
-msgstr "Prisijungti"
-
-msgid "{consentAdmin:consentadmin:attribute_id}"
-msgstr "Tapatybė"
-
-msgid "Injected attribut"
-msgstr "Įterptas atributas"
-
 msgid "Show"
 msgstr "Parodyti"
 
@@ -82,12 +48,6 @@ msgstr "Paslaugos tiekėjas"
 
 msgid "Service Providers for"
 msgstr "Paslaugos tiekėjai"
-
-msgid "login"
-msgstr "Prisijungti"
-
-msgid "(name not specified)"
-msgstr "(pavadinimas nenurodytas)"
 
 msgid "Consent updated"
 msgstr "Leidimas atnaujintas"

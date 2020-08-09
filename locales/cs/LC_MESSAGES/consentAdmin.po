@@ -19,40 +19,6 @@ msgstr ""
 msgid "Attributes have changed"
 msgstr "Attributes have changed"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "Odebrané povolení"
-
-msgid "{consentAdmin:consentadmin:attribute_org}"
-msgstr "Organizace"
-
-msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "Vložený atribut"
-
-msgid "{consentAdmin:consentadmin:show_hide_attributes}"
-msgstr "zobrazit/skrýt atributy"
-
-msgid "{consentAdmin:consentadmin:sp_empty_description}"
-msgstr "(žádný popis)"
-
-msgid "{consentAdmin:consentadmin:service_providers_for}"
-msgstr "Poskytovatelé služeb pro"
-
-msgid "{consentAdmin:consentadmin:consentadmin_description2}"
-msgstr ""
-"<h3>Jak smazat vaše povolení</h3> Odznačte políčko odpovídající "
-"poskytovateli služeb <h3>Odkazy</h3> <ul><li><a "
-"href=\"https://www.wayf.dk\">Start</a></li><li><a "
-"href=\"https://www.wayf.dk/FAQ\">FAQ</a></li></ul>"
-
-msgid "{consentAdmin:consentadmin:login}"
-msgstr "přihlášení"
-
-msgid "{consentAdmin:consentadmin:attribute_id}"
-msgstr "Identita"
-
-msgid "Injected attribut"
-msgstr "Vložený atribut"
-
 msgid "Show"
 msgstr "Zobrazit"
 
@@ -82,12 +48,6 @@ msgstr "Poskytovatel služeb"
 
 msgid "Service Providers for"
 msgstr "Poskytovatelé služeb pro"
-
-msgid "login"
-msgstr "přihlášení"
-
-msgid "(name not specified)"
-msgstr "(jméno nespecifikováno)"
 
 msgid "Consent updated"
 msgstr "Aktualizované povolení"

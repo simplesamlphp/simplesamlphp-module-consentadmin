@@ -19,39 +19,6 @@ msgstr ""
 msgid "Attributes have changed"
 msgstr "Attributes have changed"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "Согласие отозвано"
-
-msgid "{consentAdmin:consentadmin:attribute_org}"
-msgstr "Организация"
-
-msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "Введенный атрибут"
-
-msgid "{consentAdmin:consentadmin:show_hide_attributes}"
-msgstr "Показать/скрыть атрибуты"
-
-msgid "{consentAdmin:consentadmin:sp_empty_description}"
-msgstr "(описание отсутствует)"
-
-msgid "{consentAdmin:consentadmin:service_providers_for}"
-msgstr "Сервис провайдеры для"
-
-msgid "{consentAdmin:consentadmin:consentadmin_description2}"
-msgstr ""
-"<h3>Как удалить ваше согласие</h3> Снимите выделение с сервис провайдера "
-"<h3>Ссылки</h3> <ul> <li><a href=\"https://www.wayf.dk\">Start</a> </li> "
-"<li><a href=\"https://www.wayf.dk/FAQ\">FAQ</a> </li> </ul>"
-
-msgid "{consentAdmin:consentadmin:login}"
-msgstr "Вход"
-
-msgid "{consentAdmin:consentadmin:attribute_id}"
-msgstr "Идентификационная информация"
-
-msgid "Injected attribut"
-msgstr "Введенный атрибут"
-
 msgid "Show"
 msgstr "Показать"
 
@@ -83,12 +50,6 @@ msgstr "Сервис провайдер"
 
 msgid "Service Providers for"
 msgstr "Сервис провайдеры для"
-
-msgid "login"
-msgstr "Вход"
-
-msgid "(name not specified)"
-msgstr "(имя не указано)"
 
 msgid "Consent updated"
 msgstr "Согласие обновлено"

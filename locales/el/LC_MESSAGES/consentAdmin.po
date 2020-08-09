@@ -18,38 +18,6 @@ msgstr ""
 msgid "Attributes have changed"
 msgstr "Attributes have changed"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "Η συγκατάθεση αναιρέθηκε"
-
-msgid "{consentAdmin:consentadmin:attribute_org}"
-msgstr "Οργανισμός"
-
-msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "Εισαχθέν στοιχείο"
-
-msgid "{consentAdmin:consentadmin:show_hide_attributes}"
-msgstr "εμφάνιση/απόκρυψη στοιχείων"
-
-msgid "{consentAdmin:consentadmin:sp_empty_description}"
-msgstr "(χωρίς περιγραφή)"
-
-msgid "{consentAdmin:consentadmin:service_providers_for}"
-msgstr "Πάροχοι Υπηρεσιών για"
-
-msgid "{consentAdmin:consentadmin:consentadmin_description2}"
-msgstr ""
-"<h3>Πώς να αναιρέσετε τη συγκατάθεσή σας</h3>Αποεπιλέξτε το κουτί "
-"επιλογής που αντιστοιχεί στον πάροχο υπηρεσιών"
-
-msgid "{consentAdmin:consentadmin:login}"
-msgstr "είσοδος"
-
-msgid "{consentAdmin:consentadmin:attribute_id}"
-msgstr "Ταυτότητα"
-
-msgid "Injected attribut"
-msgstr "Εισαχθέν στοιχείο"
-
 msgid "Show"
 msgstr "Εμφάνιση"
 
@@ -81,12 +49,6 @@ msgstr "Πάροχος Υπηρεσιών"
 
 msgid "Service Providers for"
 msgstr "Πάροχοι Υπηρεσιών για"
-
-msgid "login"
-msgstr "είσοδος"
-
-msgid "(name not specified)"
-msgstr "(χωρίς όνομα)"
 
 msgid "Consent updated"
 msgstr "Η συγκατάθεση ενημερώθηκε"

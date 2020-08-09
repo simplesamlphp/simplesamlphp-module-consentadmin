@@ -19,40 +19,6 @@ msgstr ""
 msgid "Attributes have changed"
 msgstr "Attributes have changed"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "Privolitev razveljavljena"
-
-msgid "{consentAdmin:consentadmin:attribute_org}"
-msgstr "Organizacija"
-
-msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "Vrinjen atribut"
-
-msgid "{consentAdmin:consentadmin:show_hide_attributes}"
-msgstr "Prikaži/Skrij atribute"
-
-msgid "{consentAdmin:consentadmin:sp_empty_description}"
-msgstr "(brez opisa)"
-
-msgid "{consentAdmin:consentadmin:service_providers_for}"
-msgstr "Ponudniki storitev za"
-
-msgid "{consentAdmin:consentadmin:consentadmin_description2}"
-msgstr ""
-"<h3>Kako razveljavim dano privolitev?</h3> Odstranite kljukico pred "
-"SPjem, za katerega želite razveljaviti dano privolitev<h3>Povezave</h3> "
-"<ul> <li><a href=\"https://aai.arnes.si\">Start</a> </li> <li><a "
-"href=\"https://aai.arnes.si\">FAQ</a> </li> </ul>"
-
-msgid "{consentAdmin:consentadmin:login}"
-msgstr "Prijava"
-
-msgid "{consentAdmin:consentadmin:attribute_id}"
-msgstr "Identiteta"
-
-msgid "Injected attribut"
-msgstr "Vrinjen atribut"
-
 msgid "Show"
 msgstr "Prikaži"
 
@@ -82,12 +48,6 @@ msgstr "Ponudnik storitve"
 
 msgid "Service Providers for"
 msgstr "Ponudniki storitev za"
-
-msgid "login"
-msgstr "Prijava"
-
-msgid "(name not specified)"
-msgstr "(brez naziva)"
 
 msgid "Consent updated"
 msgstr "Privolitev posodobljena"

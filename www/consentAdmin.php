@@ -243,7 +243,7 @@ $template = new \SimpleSAML\XHTML\Template($config, 'consentAdmin:consentadmin.t
 $translator = $template->getTranslator();
 $translator->includeLanguageFile('attributes'); // attribute listings translated by this dictionary
 
-$sp_empty_description = $translator->getTag('sp_empty_description');
+$sp_empty_description = $translator->getTag('(no description)');
 $sp_list = [];
 
 // Process consents for all SP
@@ -331,7 +331,7 @@ foreach ($all_sp_metadata as $sp_entityid => $sp_values) {
     ];
 }
 
-$template->data['header'] = 'Consent Administration';
+$template->data['header'] = 'Consent administration';
 $template->data['spList'] = $sp_list;
 $template->data['showDescription'] = $cA_config->getValue('showDescription');
 $template->send();

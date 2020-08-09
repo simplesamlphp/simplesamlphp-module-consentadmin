@@ -18,38 +18,6 @@ msgstr ""
 msgid "Attributes have changed"
 msgstr "Attributes have changed"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "Consentimento removido"
-
-msgid "{consentAdmin:consentadmin:attribute_org}"
-msgstr "Organização"
-
-msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "Atributo injectado"
-
-msgid "{consentAdmin:consentadmin:show_hide_attributes}"
-msgstr "mostrar/esconder atributos"
-
-msgid "{consentAdmin:consentadmin:sp_empty_description}"
-msgstr "(sem descrição)"
-
-msgid "{consentAdmin:consentadmin:service_providers_for}"
-msgstr "Fornecedores de Serviços para"
-
-msgid "{consentAdmin:consentadmin:consentadmin_description2}"
-msgstr ""
-"<h3>Como remover o seu consentimento</h3> Retire a marca correspondente "
-"ao fornecedor de serviço que pretende remover."
-
-msgid "{consentAdmin:consentadmin:login}"
-msgstr "Entrar"
-
-msgid "{consentAdmin:consentadmin:attribute_id}"
-msgstr "Identidade"
-
-msgid "Injected attribut"
-msgstr "Atributo injectado"
-
 msgid "Show"
 msgstr "Mostrar"
 
@@ -81,12 +49,6 @@ msgstr "Fornecedor de Serviço"
 
 msgid "Service Providers for"
 msgstr "Fornecedores de Serviços para"
-
-msgid "login"
-msgstr "Entrar"
-
-msgid "(name not specified)"
-msgstr "(nome não especificado)"
 
 msgid "Consent updated"
 msgstr "Consentimento actualizado"

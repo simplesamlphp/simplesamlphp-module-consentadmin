@@ -19,40 +19,6 @@ msgstr ""
 msgid "Attributes have changed"
 msgstr "Attributes have changed"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "Acordul a fost înlăturat"
-
-msgid "{consentAdmin:consentadmin:attribute_org}"
-msgstr "Instituție"
-
-msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "Atribut introdus"
-
-msgid "{consentAdmin:consentadmin:show_hide_attributes}"
-msgstr "arată/ascunde atributele"
-
-msgid "{consentAdmin:consentadmin:sp_empty_description}"
-msgstr "(fără descriere)"
-
-msgid "{consentAdmin:consentadmin:service_providers_for}"
-msgstr "Furnizori de servicii pentru"
-
-msgid "{consentAdmin:consentadmin:consentadmin_description2}"
-msgstr ""
-"<h3>Cum poate fi anulat acordul dumneavoastră</h3>Debifați căsuța "
-"corespunzătoare furnizorului de servicii <h3>Link-uri</h3><ul><li><a "
-"href=\"https://www.wayf.dk\">Start</a></li><li><a "
-"href=\"https://www.wayf.dk/FAQ\">FAQ</a></li></ul>"
-
-msgid "{consentAdmin:consentadmin:login}"
-msgstr "autentificare"
-
-msgid "{consentAdmin:consentadmin:attribute_id}"
-msgstr "Identitate"
-
-msgid "Injected attribut"
-msgstr "Atribut introdus"
-
 msgid "Show"
 msgstr "Arată"
 
@@ -84,12 +50,6 @@ msgstr "Furnizor de servicii"
 
 msgid "Service Providers for"
 msgstr "Furnizori de servicii pentru"
-
-msgid "login"
-msgstr "autentificare"
-
-msgid "(name not specified)"
-msgstr "(nu a fost specificat numele)"
 
 msgid "Consent updated"
 msgstr "Acordul a fost actualizat"

@@ -18,41 +18,6 @@ msgstr ""
 msgid "Attributes have changed"
 msgstr "Attributes have changed"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "Consentimiento eliminado"
-
-msgid "{consentAdmin:consentadmin:attribute_org}"
-msgstr "Organización"
-
-msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "Atributo inyectado"
-
-msgid "{consentAdmin:consentadmin:show_hide_attributes}"
-msgstr "Mostrar/ocultar atributos"
-
-msgid "{consentAdmin:consentadmin:sp_empty_description}"
-msgstr "(sin descripción)"
-
-msgid "{consentAdmin:consentadmin:service_providers_for}"
-msgstr "Proveedores de servicio para"
-
-msgid "{consentAdmin:consentadmin:consentadmin_description2}"
-msgstr ""
-"<h3>Como eliminar su consentimiento</h3> Desmarque la opción "
-"correspondiente al proveedor de servicios <h3>Vínculos</h3> <ul> <li><a "
-"href=\"https://www.wayf.dk\">Inicio</a> </li> <li><a "
-"href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-frequently-asked-"
-"questions\">FAQ</a> </li> </ul>"
-
-msgid "{consentAdmin:consentadmin:login}"
-msgstr "entrar"
-
-msgid "{consentAdmin:consentadmin:attribute_id}"
-msgstr "Identidad"
-
-msgid "Injected attribut"
-msgstr "Atributo inyectado"
-
 msgid "Show"
 msgstr "Mostrar"
 
@@ -84,12 +49,6 @@ msgstr "Proveedor de servicio"
 
 msgid "Service Providers for"
 msgstr "Proveedores de servicio para"
-
-msgid "login"
-msgstr "entrar"
-
-msgid "(name not specified)"
-msgstr "(nombre no especificado)"
 
 msgid "Consent updated"
 msgstr "Consentimiento actualizado"

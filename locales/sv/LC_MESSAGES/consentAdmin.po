@@ -18,41 +18,6 @@ msgstr ""
 msgid "Attributes have changed"
 msgstr "Attributes have changed"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "Samtycke borttaget"
-
-msgid "{consentAdmin:consentadmin:attribute_org}"
-msgstr "Organisation"
-
-msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "Tillfört attribut"
-
-msgid "{consentAdmin:consentadmin:show_hide_attributes}"
-msgstr "visa/göm attribut"
-
-msgid "{consentAdmin:consentadmin:sp_empty_description}"
-msgstr "(ingen beskrivning)"
-
-msgid "{consentAdmin:consentadmin:service_providers_for}"
-msgstr "Tjänsteleverantörer för"
-
-msgid "{consentAdmin:consentadmin:consentadmin_description2}"
-msgstr ""
-"<h3>Hur du tar bort ditt samtycke</h3> Ta bort markeringen i rutan "
-"kopplad till tjänsteleverantören <h3>Länkar</h3> <ul> <li><a "
-"href=\"https://www.wayf.dk\">Start</a> </li> <li><a "
-"href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-frequently-asked-"
-"questions\">FAQ</a> </li> </ul> "
-
-msgid "{consentAdmin:consentadmin:login}"
-msgstr "Logga in"
-
-msgid "{consentAdmin:consentadmin:attribute_id}"
-msgstr "Identitet"
-
-msgid "Injected attribut"
-msgstr "Tillfört attribut"
-
 msgid "Show"
 msgstr "Visa"
 
@@ -82,12 +47,6 @@ msgstr "Tjänsteleverantör"
 
 msgid "Service Providers for"
 msgstr "Tjänsteleverantörer för"
-
-msgid "login"
-msgstr "Logga in"
-
-msgid "(name not specified)"
-msgstr "(namn ej angivet)"
 
 msgid "Consent updated"
 msgstr "Samtycke uppdaterat"

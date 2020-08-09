@@ -18,41 +18,6 @@ msgstr ""
 msgid "Attributes have changed"
 msgstr "Attributes have changed"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "Consenso Rimosso"
-
-msgid "{consentAdmin:consentadmin:attribute_org}"
-msgstr "Organizzazione"
-
-msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "Attributo inserito"
-
-msgid "{consentAdmin:consentadmin:show_hide_attributes}"
-msgstr "Mostra/nascondi attributi"
-
-msgid "{consentAdmin:consentadmin:sp_empty_description}"
-msgstr "(nessuna descrizione)"
-
-msgid "{consentAdmin:consentadmin:service_providers_for}"
-msgstr "Service provider per"
-
-msgid "{consentAdmin:consentadmin:consentadmin_description2}"
-msgstr ""
-"<h3>Come rimuovere il consenso></h3> Togliere il segno di spunta al "
-"corrispondente service provider<h3>Collegamenti</h3><ul><li><a "
-"href=\"https://www.wayf.dk\">Inizio</a></li><li><a "
-"href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-frequently-asked-"
-"questions\">FAQ</a></li></ul>"
-
-msgid "{consentAdmin:consentadmin:login}"
-msgstr "connessione"
-
-msgid "{consentAdmin:consentadmin:attribute_id}"
-msgstr "Identità"
-
-msgid "Injected attribut"
-msgstr "Attributo inserito"
-
 msgid "Show"
 msgstr "Mostra"
 
@@ -84,12 +49,6 @@ msgstr "Service Provider"
 
 msgid "Service Providers for"
 msgstr "Service provider per"
-
-msgid "login"
-msgstr "connessione"
-
-msgid "(name not specified)"
-msgstr "(nome non specificato)"
 
 msgid "Consent updated"
 msgstr "Consenso Aggiornato"

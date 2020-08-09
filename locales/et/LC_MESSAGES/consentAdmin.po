@@ -18,41 +18,6 @@ msgstr ""
 msgid "Attributes have changed"
 msgstr "Attributes have changed"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "Nõusolek eemaldatud"
-
-msgid "{consentAdmin:consentadmin:attribute_org}"
-msgstr "Organisatsioon"
-
-msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "XXXSüstitud atribuut"
-
-msgid "{consentAdmin:consentadmin:show_hide_attributes}"
-msgstr "näita/peida atribuudid"
-
-msgid "{consentAdmin:consentadmin:sp_empty_description}"
-msgstr "(kirjeldus puudub)"
-
-msgid "{consentAdmin:consentadmin:service_providers_for}"
-msgstr "Teenusepakkujad"
-
-msgid "{consentAdmin:consentadmin:consentadmin_description2}"
-msgstr ""
-"<h3>Kuidas eemaldada nõusolekut</h3> Eemalda vastava teenusepakkuja "
-"juurest märge <h3>Viited</h3> <ul> <li><a "
-"href=\"https://www.wayf.dk\">Start</a> </li> <li><a "
-"href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-frequently-asked-"
-"questions\">KKK</a> </li> </ul>"
-
-msgid "{consentAdmin:consentadmin:login}"
-msgstr "logi sisse"
-
-msgid "{consentAdmin:consentadmin:attribute_id}"
-msgstr "Identiteet"
-
-msgid "Injected attribut"
-msgstr "XXXSüstitud atribuut"
-
 msgid "Show"
 msgstr "Näita"
 
@@ -82,12 +47,6 @@ msgstr "Teenusepakkuja"
 
 msgid "Service Providers for"
 msgstr "Teenusepakkujad"
-
-msgid "login"
-msgstr "logi sisse"
-
-msgid "(name not specified)"
-msgstr "(nimi määramata)"
 
 msgid "Consent updated"
 msgstr "Nõusolek uuendatud"

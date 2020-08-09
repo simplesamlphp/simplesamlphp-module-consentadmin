@@ -18,40 +18,6 @@ msgstr ""
 msgid "Attributes have changed"
 msgstr "Attributes have changed"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "承認が削除されました"
-
-msgid "{consentAdmin:consentadmin:attribute_org}"
-msgstr "組織"
-
-msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "挿入された属性"
-
-msgid "{consentAdmin:consentadmin:show_hide_attributes}"
-msgstr "表示/非表示属性"
-
-msgid "{consentAdmin:consentadmin:sp_empty_description}"
-msgstr "(記述無し)"
-
-msgid "{consentAdmin:consentadmin:service_providers_for}"
-msgstr "サービスプロバイダ - "
-
-msgid "{consentAdmin:consentadmin:consentadmin_description2}"
-msgstr ""
-"<h3>承認の削除方法</h3> 該当するサービスプロバイダのチェックを外します。<h3>リンク</h3> <ul> <li><a "
-"href=\"https://www.wayf.dk\">Start</a> </li> <li><a "
-"href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-frequently-asked-"
-"questions\">FAQ</a> </li> </ul> "
-
-msgid "{consentAdmin:consentadmin:login}"
-msgstr "ログイン"
-
-msgid "{consentAdmin:consentadmin:attribute_id}"
-msgstr "識別子"
-
-msgid "Injected attribut"
-msgstr "挿入された属性"
-
 msgid "Show"
 msgstr "表示"
 
@@ -81,12 +47,6 @@ msgstr "サービスプロバイダ"
 
 msgid "Service Providers for"
 msgstr "サービスプロバイダ - "
-
-msgid "login"
-msgstr "ログイン"
-
-msgid "(name not specified)"
-msgstr "(名前無し)"
 
 msgid "Consent updated"
 msgstr "承認が更新されました"

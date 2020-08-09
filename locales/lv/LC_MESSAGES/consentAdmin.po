@@ -19,41 +19,6 @@ msgstr ""
 msgid "Attributes have changed"
 msgstr "Attributes have changed"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "Noņemtie noteikumi"
-
-msgid "{consentAdmin:consentadmin:attribute_org}"
-msgstr "Organizācija"
-
-msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "Ievietots atribūts"
-
-msgid "{consentAdmin:consentadmin:show_hide_attributes}"
-msgstr "rādīšanas/slēpšanas atribūti"
-
-msgid "{consentAdmin:consentadmin:sp_empty_description}"
-msgstr "(nav apraksta)"
-
-msgid "{consentAdmin:consentadmin:service_providers_for}"
-msgstr "Servisa piegādātāji priekš"
-
-msgid "{consentAdmin:consentadmin:consentadmin_description2}"
-msgstr ""
-"<h3>Kā dzēst noteikumus</h3> Izņemiet ķeksīti pie atbilstošā servisa "
-"piegādātāja <h3>Saites</h3> <ul> <li><a "
-"href=\"https://www.wayf.dk\">Sākums</a> </li> <li><a "
-"href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-frequently-asked-"
-"questions\">BUJ</a> </li> </ul> "
-
-msgid "{consentAdmin:consentadmin:login}"
-msgstr "pieslēgties"
-
-msgid "{consentAdmin:consentadmin:attribute_id}"
-msgstr "Identitāte"
-
-msgid "Injected attribut"
-msgstr "Ievietots atribūts"
-
 msgid "Show"
 msgstr "Parādīt"
 
@@ -83,12 +48,6 @@ msgstr "Servisa piegādātājs"
 
 msgid "Service Providers for"
 msgstr "Servisa piegādātāji priekš"
-
-msgid "login"
-msgstr "pieslēgties"
-
-msgid "(name not specified)"
-msgstr "(vārds nav norādīts)"
 
 msgid "Consent updated"
 msgstr "Uzlabotie noteikumi"

@@ -18,40 +18,6 @@ msgstr ""
 msgid "Attributes have changed"
 msgstr "Attributes have changed"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "已经移除的许可"
-
-msgid "{consentAdmin:consentadmin:attribute_org}"
-msgstr "组织"
-
-msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "注入的属性"
-
-msgid "{consentAdmin:consentadmin:show_hide_attributes}"
-msgstr "显示/隐藏属性"
-
-msgid "{consentAdmin:consentadmin:sp_empty_description}"
-msgstr "（没有描述）"
-
-msgid "{consentAdmin:consentadmin:service_providers_for}"
-msgstr "服务提供商服务于"
-
-msgid "{consentAdmin:consentadmin:consentadmin_description2}"
-msgstr ""
-"<h3>如何删除你的许可</h3>反选相应的SP选择框<h3>Links</h3> <ul> <li><a "
-"href=\"https://www.wayf.dk\">开始</a> </li> <li><a "
-"href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-frequently-asked-"
-"questions\">FAQ</a> </li> </ul>"
-
-msgid "{consentAdmin:consentadmin:login}"
-msgstr "登陆"
-
-msgid "{consentAdmin:consentadmin:attribute_id}"
-msgstr "身份"
-
-msgid "Injected attribut"
-msgstr "注入的属性"
-
 msgid "Show"
 msgstr "显示"
 
@@ -81,12 +47,6 @@ msgstr "服务提供商"
 
 msgid "Service Providers for"
 msgstr "服务提供商服务于"
-
-msgid "login"
-msgstr "登陆"
-
-msgid "(name not specified)"
-msgstr "（没有指定名字）"
 
 msgid "Consent updated"
 msgstr "已经更新的许可"

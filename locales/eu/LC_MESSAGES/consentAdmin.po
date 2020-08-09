@@ -18,41 +18,6 @@ msgstr ""
 msgid "Attributes have changed"
 msgstr "Attributes have changed"
 
-msgid "{consentAdmin:consentadmin:removed}"
-msgstr "Onespena ezabatua"
-
-msgid "{consentAdmin:consentadmin:attribute_org}"
-msgstr "Erakundea"
-
-msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "Atributua sartuta"
-
-msgid "{consentAdmin:consentadmin:show_hide_attributes}"
-msgstr "erakutsi/ezkutatu atributuak"
-
-msgid "{consentAdmin:consentadmin:sp_empty_description}"
-msgstr "(deskribapenik gabe)"
-
-msgid "{consentAdmin:consentadmin:service_providers_for}"
-msgstr "Zerbitzu hornitzaileak hontarako: "
-
-msgid "{consentAdmin:consentadmin:consentadmin_description2}"
-msgstr ""
-"<h3>Zure onespena nola ezabatu</h3> Zerbitzu hornitzaileari dagokion "
-"aukerari marka kendu ezaiozu <h3>Loturak</h3> <ul> <li><a "
-"href=\"https://www.wayf.dk\">Haisera</a> </li> <li><a "
-"href=\"https://www.wayf.dk/index.php/en/about-wayf/faq-frequently-asked-"
-"questions\">FAQ</a> </li> </ul>"
-
-msgid "{consentAdmin:consentadmin:login}"
-msgstr "sartu"
-
-msgid "{consentAdmin:consentadmin:attribute_id}"
-msgstr "Identitatea"
-
-msgid "Injected attribut"
-msgstr "Atributua sartuta"
-
 msgid "Show"
 msgstr "Erakutsi"
 
@@ -82,12 +47,6 @@ msgstr "Zerbitzu hornitzailea"
 
 msgid "Service Providers for"
 msgstr "Zerbitzu hornitzaileak hontarako: "
-
-msgid "login"
-msgstr "sartu"
-
-msgid "(name not specified)"
-msgstr "(izena ez da zehaztu)"
 
 msgid "Consent updated"
 msgstr "Onespena eguneratua"
