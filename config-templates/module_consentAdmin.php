@@ -2,7 +2,6 @@
 /**
  * Config file for consentAdmin
  *
- * @author Jacob Christiansen, <jach@wayf.dk>
  * @package SimpleSAMLphp
  */
 $config = [
