@@ -26,14 +26,14 @@
         }
     },
     "require": {
-        "php": ">=7.2",
+        "php": ">=7.4",
+        "simplesamlphp/assert": "~0.1.0",
         "simplesamlphp/composer-module-installer": "~1.1",
         "simplesamlphp/simplesamlphp": "dev-master",
-        "simplesamlphp/simplesamlphp-module-consent": "^1.0",
-        "webmozart/assert": "~1.4"
+        "simplesamlphp/simplesamlphp-module-consent": "^1.0"
     },
     "require-dev": {
-        "simplesamlphp/simplesamlphp-test-framework": "^0.1.0"
+        "simplesamlphp/simplesamlphp-test-framework": "^1.0.3"
     },
     "extra": {
         "ssp-mixedcase-module-name": "consentAdmin"
