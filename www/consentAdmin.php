@@ -297,8 +297,6 @@ foreach ($all_sp_metadata as $sp_entityid => $sp_values) {
             $sp_name = $sp_metadata['name'];
         } elseif (isset($sp_values['OrganizationDisplayName']) && is_array($sp_values['OrganizationDisplayName'])) {
             $sp_name = $sp_metadata['OrganizationDisplayName'];
-        } else {
-            $sp_name = $sp_entityid;
         }
     }
 
@@ -311,13 +309,6 @@ foreach ($all_sp_metadata as $sp_entityid => $sp_values) {
 
     // Add a URL to the service if present in metadata
     $sp_service_url = isset($sp_metadata['ServiceURL']) ? $sp_metadata['ServiceURL'] : null;
-
-    // Translate SP name and description
-    $translator->includeInlineTranslation('spname', $sp_name);
-    $translator->includeInlineTranslation('spdescription', $sp_description);
-
-    $sp_name = $translator->getPreferredTranslation($translator->getTag('spname') ?? []);
-    $sp_description = $translator->getPreferredTranslation($translator->getTag('spdescription') ?? []);
 
     // Fill out array for the template
     $sp_list[$sp_entityid] = [

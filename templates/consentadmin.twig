@@ -31,11 +31,11 @@
     <tr class="{{ rowClass }}">
         <td>
             <span class='caSPName'>
-                <span title='{{ spValues.description|escape('html') }}'>
+                <span title='{{ spValues.description|translateFromArray|escape('html') }}'>
                 {% if spValues.serviceurl is defined %}
-                    {{ spValues.name|escape('html') }}
+                    {{ spValues.name|translateFromArray|default(spName)|escape('html') }}
                 {% else %}
-                    <a class="serviceUrl" href="{{ spValues.serviceurl }}">{{ spValues.name|escape('html') }}</a>
+                    <a class="serviceUrl" href="{{ spValues.serviceurl }}">{{ spValues.name|translateFromArray|default(spName)|escape('html') }}</a>
                 {% endif %}
                 </span>
                 <span class="show_hide" id="show_hide_{{ loop.index0 }}">
@@ -48,7 +48,7 @@
         <td class="caAttributes">
             <div id="attributes_{{ loop.index0 }}">
             {% if showDescription %}
-                <p>{{ '{consentAdmin:consentadmin:consentadmin_purpose}'|trans }}{{ spValues.description|escape('html') }}</p>
+                <p>{{ '{consentAdmin:consentadmin:consentadmin_purpose}'|trans }}{{ spValues.description|translateFromArray|escape('html') }}</p>
             {% endif %}
                 <ul>
                 {% for attrName, attrValue in spValues.attributes_by_sp %}
