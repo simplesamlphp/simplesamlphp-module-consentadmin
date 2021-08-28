@@ -34,7 +34,7 @@
         "simplesamlphp/simplesamlphp-module-consent": "^1.0"
     },
     "require-dev": {
-        "simplesamlphp/simplesamlphp-test-framework": "^1.1.5"
+        "simplesamlphp/simplesamlphp-test-framework": "^1.1.0"
     },
     "extra": {
         "ssp-mixedcase-module-name": "consentAdmin"
