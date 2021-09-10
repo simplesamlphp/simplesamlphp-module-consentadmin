@@ -131,7 +131,7 @@ class ConsentAdminTest extends TestCase
             }
         };
 
-        $this->consent = new class () extends Consent {
+        $this->consent = new class (array $config, $reserved) extends Consent {
             public static function getHashedUserID(string $userid, string $source): string
             {
                 return 'abc123@simplesamlphp.org';
