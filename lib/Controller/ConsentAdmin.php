@@ -30,6 +30,21 @@ class ConsentAdmin
     /** @var \SimpleSAML\Session */
     protected Session $session;
 
+    /** @var \SimpleSAML\Metadata\MetaDataStorageHandler */
+    protected MetaDataStorageHandler $metadataStorageHandler;
+
+    /**
+     * @var \SimpleSAML\Auth\Simple|string
+     * @psalm-var \SimpleSAML\Auth\Simple|class-string
+     */
+    protected $authSimple = Auth\Simple::class;
+
+    /**
+     * @var \SimpleSAML\Module\consent\Auth\Process\Consent|string
+     * @psalm-var \SimpleSAML\Module\consent\Auth\Process\Consent|class-string
+     */
+    protected $consent = Consent::class;
+
 
     /**
      * Controller constructor.
@@ -47,9 +62,42 @@ class ConsentAdmin
     ) {
         $this->config = $config;
         $this->moduleConfig = Configuration::getConfig('module_consentAdmin.php');
+        $this->metadataStorageHandler = MetaDataStorageHandler::getMetadataHandler();
         $this->session = $session;
     }
 
+
+    /**
+     * Inject the \SimpleSAML\Auth\Simple dependency.
+     *
+     * @param \SimpleSAML\Auth\Simple $authSimple
+     */
+    public function setAuthSimple(Auth\Simple $authSimple): void
+    {
+        $this->authSimple = $authSimple;
+    }
+
+
+    /**
+     * Inject the \SimpleSAML\Metadata\MetaDataStorageHandler dependency.
+     *
+     * @param \SimpleSAML\Metadata\MetaDataStorageHandler $handler
+     */
+    public function setMetadataStorageHandler(MetadataStorageHandler $handler): void
+    {
+        $this->metadataStorageHandler = $handler;
+    }
+
+
+    /**
+     * Inject the \SimpleSAML\Module\consent\Auth\Process\Consent dependency.
+     *
+     * @param \SimpleSAML\Module\consent\Auth\Process\Consent $consent
+     */
+    public function setConsent(Consent $consent): void
+    {
+        $this->consent = $consent;
+    }
 
 
     /**
@@ -61,7 +109,7 @@ class ConsentAdmin
     {
         $authority = $this->moduleConfig->getValue('authority');
 
-        $as = new Auth\Simple($authority);
+        $as = new $this->authSimple($authority);
 
         // If request is a logout request
         $logout = $request->get('logout');
@@ -81,7 +129,7 @@ class ConsentAdmin
         $attributes = $as->getAttributes();
 
         // Get metadata storage handler
-        $metadata = MetaDataStorageHandler::getMetadataHandler();
+        $metadata = $this->metadataStorageHandler;
 
         /*
          * Get IdP id and metadata
@@ -139,7 +187,7 @@ class ConsentAdmin
         $consent_storage = Store::parseStoreConfig($this->moduleConfig->getValue('consentadmin'));
 
         // Calc correct user ID hash
-        $hashed_user_id = Consent::getHashedUserID($userid, $source);
+        $hashed_user_id = $this->consent::getHashedUserID($userid, $source);
 
         // If a checkbox have been clicked
         if ($action !== null && $sp_entityid !== null) {
