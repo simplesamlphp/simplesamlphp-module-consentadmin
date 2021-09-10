@@ -132,7 +132,7 @@ class ConsentAdminTest extends TestCase
         };
 
         $this->consent = new class () extends Consent {
-            public static function getHashedUserID(): string
+            public static function getHashedUserID(string $userid, string $source): string
             {
                 return 'abc123@simplesamlphp.org';
             }
