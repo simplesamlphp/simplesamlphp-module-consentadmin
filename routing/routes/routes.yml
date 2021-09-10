@@ -1,0 +1,3 @@
+consentadmin-main:
+    path:       /
+    defaults:   { _controller: 'SimpleSAML\Module\consentadmin\Controller\ConsentAdmin::main' }
