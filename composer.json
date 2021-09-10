@@ -24,6 +24,11 @@
             "simplesamlphp/composer-module-installer": true
         }
     },
+    "autoload": {
+        "psr-4": {
+            "SimpleSAML\\Module\\consentadmin\\": "lib/"
+        }
+    },
     "autoload-dev": {
         "psr-4": {
             "SimpleSAML\\Test\\Utils\\": "vendor/simplesamlphp/simplesamlphp/tests/Utils"
