@@ -50,7 +50,7 @@ class ConsentAdminTest extends TestCase
                 'secretsalt' => 'abc123',
                 'module.enable' => [
                     'consent' => true,
-                    'consentadmin' => true,
+                    'consentAdmin' => true,
                     'exampleauth' => true,
                 ],
             ],
@@ -65,9 +65,7 @@ class ConsentAdminTest extends TestCase
                     'authority' => 'exampleauth',
                     'consentadmin'  => [
                         'consent:Database',
-                        'dsn'       =>  'mysql:host=DBHOST;dbname=DBNAME',
-                        'username'  =>  'USERNAME',
-                        'password'  =>  'PASSWORD',
+                        'dsn'       =>  'sqlite::memory:',
                     ],
                 ],
                 '[ARRAY]',
@@ -131,7 +129,7 @@ class ConsentAdminTest extends TestCase
             }
         };
 
-        $this->consent = new class (array $config, $reserved) extends Consent {
+        $this->consent = new class (['identifyingAttribute' => 'eduPersonPrincipal'], null) extends Consent {
             public static function getHashedUserID(string $userid, string $source): string
             {
                 return 'abc123@simplesamlphp.org';

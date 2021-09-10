@@ -193,7 +193,7 @@ class ConsentAdmin
         if ($action !== null && $sp_entityid !== null) {
             // init template to enable translation of status messages
             $template = new Template(
-                $config,
+                $this->config,
                 'consentAdmin:consentadminajax.twig',
                 'consentAdmin:consentadmin'
             );
@@ -247,7 +247,7 @@ class ConsentAdmin
         $template_sp_content = [];
 
         // Init template
-        $template = new Template($config, 'consentAdmin:consentadmin.twig', 'consentAdmin:consentadmin');
+        $template = new Template($this->config, 'consentAdmin:consentadmin.twig', 'consentAdmin:consentadmin');
         $translator = $template->getTranslator();
         $translator->includeLanguageFile('attributes'); // attribute listings translated by this dictionary
 
