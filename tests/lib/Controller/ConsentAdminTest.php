@@ -63,9 +63,9 @@ class ConsentAdminTest extends TestCase
             Configuration::loadFromArray(
                 [
                     'authority' => 'exampleauth',
-                    'consentadmin'  => [
+                    'consentadmin' => [
                         'consent:Database',
-                        'dsn'       =>  'sqlite::memory:',
+                        'dsn' =>  'sqlite::memory:',
                     ],
                 ],
                 '[ARRAY]',
@@ -121,7 +121,7 @@ class ConsentAdminTest extends TestCase
             }
             public function getMetaData(?string $entityId, string $set): array
             {
-                return ['userid.attribute'];
+                return ['entityid' => 'localhost/simplesaml', 'metadata-set' => 'saml20-idp-hosted'];
             }
             public function getList(string $set = 'saml20-idp-hosted', bool $showExpired = false): array
             {
@@ -133,6 +133,10 @@ class ConsentAdminTest extends TestCase
             public static function getHashedUserID(string $userid, string $source): string
             {
                 return 'abc123@simplesamlphp.org';
+            }
+            public static function getTargetedID(string $userid, string $source, string $destination): string
+            {
+                return hash('sha1', 'abc123@simplesamlphp.org');
             }
         };
     }
@@ -193,7 +197,7 @@ class ConsentAdminTest extends TestCase
 
 
     /**
-     * Test that accessing the main endpoint with unkown action throws an exception
+     * Test that accessing the main endpoint with unkown action results in a Template
      *
      * @return void
      */
@@ -212,11 +216,10 @@ class ConsentAdminTest extends TestCase
         $c->setAuthSimple($this->authSimple);
         $c->setMetadataStorageHandler($this->metadataStorageHandler);
         $c->setConsent($this->consent);
+        $result = $c->main($request);
 
-        $this->expectException(Exception::class);
-        $this->expectExceptionMessage('Unknown action (should not happen)');
-
-        $c->main($request);
+        $this->assertTrue($result->isSuccessful());
+        $this->assertInstanceOf(Template::class, $result);
     }
 
 

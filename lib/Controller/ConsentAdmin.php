@@ -118,7 +118,7 @@ class ConsentAdmin
             $as->logout($returnURL);
         }
 
-        $hashAttributes = $this->moduleConfig->getValue('attributes.hash');
+        $hashAttributes = $this->moduleConfig->getValue('attributes.hash', false);
 
         $excludeAttributes = $this->moduleConfig->getValue('attributes.exclude', []);
 
@@ -220,12 +220,8 @@ class ConsentAdmin
             } else {
                 if ($action == 'false') {
                     // Got consent, so this is a request to remove it
-                    $rowcount = $consent_storage->deleteConsent($hashed_user_id, $targeted_id);
-                    if ($rowcount > 0) {
-                        $isStored = false;
-                    } else {
-                        throw new Exception("Unknown action (should not happen)");
-                    }
+                    $consent_storage->deleteConsent($hashed_user_id, $targeted_id);
+                    $isStored = false;
                 } else {
                     Logger::info('consentAdmin: unknown action');
                     $isStored = null;
@@ -332,7 +328,7 @@ class ConsentAdmin
 
         $template->data['header'] = 'Consent Administration';
         $template->data['spList'] = $sp_list;
-        $template->data['showDescription'] = $cA_config->getValue('showDescription');
+        $template->data['showDescription'] = $this->moduleConfig->getValue('showDescription');
 
         return $template;
     }
@@ -359,8 +355,8 @@ class ConsentAdmin
         string $sp_entityid,
         array $attributes,
         string $userid,
-        bool $hashAttributes = false,
-        array $excludeAttributes = []
+        bool $hashAttributes,
+        array $excludeAttributes
     ): array {
         /*
          * Create a new processing chain
@@ -406,8 +402,8 @@ class ConsentAdmin
          */
         $destination = $sp_metadata['metadata-set'] . '|' . $sp_entityid;
 
-        $targeted_id = Consent::getTargetedID($userid, $source, $destination);
-        $attribute_hash = Consent::getAttributeHash($attributes, $hashAttributes);
+        $targeted_id = $this->consent::getTargetedID($userid, $source, $destination);
+        $attribute_hash = $this->consent::getAttributeHash($attributes, $hashAttributes);
 
         Logger::info('consentAdmin: user: ' . $userid);
         Logger::info('consentAdmin: target: ' . $targeted_id);
