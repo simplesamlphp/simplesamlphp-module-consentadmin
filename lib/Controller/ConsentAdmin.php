@@ -27,6 +27,9 @@ class ConsentAdmin
     /** @var \SimpleSAML\Configuration */
     protected Configuration $config;
 
+    /** @var \SimpleSAML\Configuration */
+    protected Configuration $moduleConfig;
+
     /** @var \SimpleSAML\Session */
     protected Session $session;
 
@@ -214,13 +217,12 @@ class ConsentAdmin
                 'consentAdmin:consentadminajax.twig',
                 'consentAdmin:consentadmin'
             );
-            $translator = $template->getTranslator();
 
             // Get SP metadata
             $sp_metadata = $metadata->getMetaData($sp_entityid, 'saml20-sp-remote');
 
             // Run AuthProc filters
-            list($targeted_id, $attribute_hash, $attributes_new) = $this->driveProcessingChain(
+            list($targeted_id, $attribute_hash, $attributes) = $this->driveProcessingChain(
                 $idp_metadata,
                 $source,
                 $sp_metadata,
@@ -272,7 +274,7 @@ class ConsentAdmin
             $sp_metadata = $metadata->getMetaData($sp_entityid, 'saml20-sp-remote');
 
             // Run attribute filters
-            list($targeted_id, $attribute_hash, $attributes_new) = $this->driveProcessingChain(
+            list($targeted_id, $attribute_hash, $attributes) = $this->driveProcessingChain(
                 $idp_metadata,
                 $source,
                 $sp_metadata,
@@ -282,17 +284,6 @@ class ConsentAdmin
                 $hashAttributes,
                 $excludeAttributes
             );
-
-            // Translate attribute-names
-            foreach ($attributes_new as $orig_name => $value) {
-                if (isset($template->data['attribute_' . htmlspecialchars(strtolower($orig_name))])) {
-                    $old_name = $template->data['attribute_' . htmlspecialchars(strtolower($orig_name))];
-                }
-                $name = $translator->getAttributeTranslation(strtolower($orig_name)); // translate
-
-                $attributes_new[$name] = $value;
-                unset($attributes_new[$orig_name]);
-            }
 
             // Check if consent exists
             if (array_key_exists($targeted_id, $user_consent)) {
@@ -312,12 +303,12 @@ class ConsentAdmin
             // Set name of SP
             if (isset($sp_values['name']) && is_array($sp_values['name'])) {
                 $sp_name = $sp_metadata['name'];
+            } elseif (isset($sp_values['name']) && is_string($sp_values['name'])) {
+                $sp_name = $sp_metadata['name'];
+            } elseif (isset($sp_values['OrganizationDisplayName']) && is_array($sp_values['OrganizationDisplayName'])) {
+                $sp_name = $sp_metadata['OrganizationDisplayName'];
             } else {
-                if (isset($sp_values['name']) && is_string($sp_values['name'])) {
-                    $sp_name = $sp_metadata['name'];
-                } elseif (isset($sp_values['OrganizationDisplayName']) && is_array($sp_values['OrganizationDisplayName'])) {
-                    $sp_name = $sp_metadata['OrganizationDisplayName'];
-                }
+                $sp_name = $sp_entityid;
             }
 
             // Set description of SP
@@ -336,7 +327,7 @@ class ConsentAdmin
                 'description'      => $sp_description,
                 'consentStatus'    => $sp_status,
                 'consentValue'     => $sp_entityid,
-                'attributes_by_sp' => $attributes_new,
+                'attributes_by_sp' => $attributes,
                 'serviceurl'       => $sp_service_url,
             ];
         }

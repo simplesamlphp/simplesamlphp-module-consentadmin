@@ -53,7 +53,7 @@
                 <ul>
                 {% for attrName, attrValue in spValues.attributes_by_sp %}
                 {% if attrValue|length > 1 %}
-                    <li>{{ attrName|escape('html') }}:
+                    <li>{{ attrName|trans|escape('html') }}:
                         <ul>
                         {% for valKey, value in attrValue %}
                             <li>{{ value|escape('html') }}</li>
