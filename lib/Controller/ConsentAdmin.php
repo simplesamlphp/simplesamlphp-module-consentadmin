@@ -259,12 +259,9 @@ class ConsentAdmin
            $user_consent[$c[0]] = $c[1];
         }
 
-        $template_sp_content = [];
-
         // Init template
         $template = new Template($this->config, 'consentAdmin:consentadmin.twig', 'consentAdmin:consentadmin');
         $template->getLocalization()->addAttributeDomains();
-        $translator = $template->getTranslator();
 
         $sp_list = [];
 
