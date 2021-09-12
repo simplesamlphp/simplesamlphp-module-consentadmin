@@ -256,7 +256,7 @@ class ConsentAdmin
         // Parse list of consents
         $user_consent = [];
         foreach ($user_consent_list as $c) {
-           $user_consent[$c[0]] = $c[1];
+            $user_consent[$c[0]] = $c[1];
         }
 
         // Init template
