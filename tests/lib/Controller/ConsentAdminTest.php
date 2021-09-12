@@ -11,6 +11,8 @@ use SimpleSAML\Auth;
 use SimpleSAML\Configuration;
 use SimpleSAML\Metadata\MetaDataStorageHandler;
 use SimpleSAML\Module\consent\Auth\Process\Consent;
+use SimpleSAML\Module\consent\Consent\Store\Database;
+use SimpleSAML\Module\consent\Store;
 use SimpleSAML\Module\consentadmin\Controller;
 use SimpleSAML\Session;
 use SimpleSAML\XHTML\Template;
@@ -34,6 +36,9 @@ class ConsentAdminTest extends TestCase
 
     /** @var \SimpleSAML\Module\consent\Auth\Process\Consent */
     protected Consent $consent;
+
+    /** @var \SimpleSAML\Module\consent\Store */
+    protected Store $store;
 
     /** @var \SimpleSAML\Metadata\MetaDataStorageHandler */
     protected MetaDataStorageHandler $metadataStorageHandler;
@@ -66,7 +71,7 @@ class ConsentAdminTest extends TestCase
                     'authority' => 'exampleauth',
                     'consentadmin' => [
                         'consent:Database',
-                        'dsn' =>  'sqlite::memory:',
+                        'dsn' => 'sqlite::memory:',
                     ],
                 ],
                 '[ARRAY]',
@@ -140,6 +145,41 @@ class ConsentAdminTest extends TestCase
                 return hash('sha1', 'abc123@simplesamlphp.org');
             }
         };
+
+        $this->store = new class([]) extends Store {
+            public function __construct()
+            {
+                // stub
+            }
+            public function saveConsent(string $userId, string $destinationId, string $attributeSet): bool {
+                 return true;
+            }
+            public function deleteConsent(string $hashed_user_id, string $targeted_id): int {
+                return 1;
+            }
+            public function getConsents(string $userId): array {
+                return [];
+            }
+            public function hasConsent(string $userId, string $destinationId, string $attributeSet): bool {
+                return true;
+            }
+            public static function parseStoreConfig($config): Store {
+                return new class($config) extends Database {
+                    public function saveConsent(string $userId, string $destinationId, string $attributeSet): bool {
+                        return true;
+                    }
+                    public function deleteConsent(string $hashed_user_id, string $targeted_id): int {
+                        return 1;
+                    }
+                    public function getConsents(string $userId): array {
+                        return [];
+                    }
+                    public function hasConsent(string $userId, string $destinationId, string $attributeSet): bool {
+                        return true;
+                    }
+                };
+            }
+        };
     }
 
 
@@ -150,8 +190,6 @@ class ConsentAdminTest extends TestCase
      */
     public function testMainActionTrue(): void
     {
-        $this->markTestSkipped();
-
         $_SERVER['REQUEST_METHOD'] = 'GET';
         $_SERVER['REQUEST_URI'] = '/';
 
@@ -165,6 +203,7 @@ class ConsentAdminTest extends TestCase
         $c->setAuthSimple($this->authSimple);
         $c->setMetadataStorageHandler($this->metadataStorageHandler);
         $c->setConsent($this->consent);
+        $c->setStore($this->store);
         $result = $c->main($request);
 
         $this->assertTrue($result->isSuccessful());
@@ -179,8 +218,6 @@ class ConsentAdminTest extends TestCase
      */
     public function testMainActionFalse(): void
     {
-        $this->markTestSkipped();
-
         $_SERVER['REQUEST_METHOD'] = 'GET';
         $_SERVER['REQUEST_URI'] = '/';
 
@@ -194,6 +231,7 @@ class ConsentAdminTest extends TestCase
         $c->setAuthSimple($this->authSimple);
         $c->setMetadataStorageHandler($this->metadataStorageHandler);
         $c->setConsent($this->consent);
+        $c->setStore($this->store);
         $result = $c->main($request);
 
         $this->assertTrue($result->isSuccessful());
@@ -235,8 +273,6 @@ class ConsentAdminTest extends TestCase
      */
     public function testMainNoAction(): void
     {
-        $this->markTestSkipped();
-
         $_SERVER['REQUEST_METHOD'] = 'GET';
         $_SERVER['REQUEST_URI'] = '/';
 
@@ -250,10 +286,10 @@ class ConsentAdminTest extends TestCase
         $c->setAuthSimple($this->authSimple);
         $c->setMetadataStorageHandler($this->metadataStorageHandler);
         $c->setConsent($this->consent);
+        $c->setStore($this->store);
         $result = $c->main($request);
 
         $this->assertTrue($result->isSuccessful());
         $this->assertInstanceOf(Template::class, $result);
     }
-
 }

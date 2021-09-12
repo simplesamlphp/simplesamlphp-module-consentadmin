@@ -45,6 +45,12 @@ class ConsentAdmin
      */
     protected $consent = Consent::class;
 
+    /**
+     * @var \SimpleSAML\Module\consent\Store|string
+     * @psalm-var \SimpleSAML\Module\consent\Store|class-string
+     */
+    protected $store = Store::class;
+
 
     /**
      * Controller constructor.
@@ -64,6 +70,17 @@ class ConsentAdmin
         $this->moduleConfig = Configuration::getConfig('module_consentAdmin.php');
         $this->metadataStorageHandler = MetaDataStorageHandler::getMetadataHandler();
         $this->session = $session;
+    }
+
+
+    /**
+     * Inject the \SimpleSAML\Module\consent\Store dependency.
+     *
+     * @param \SimpleSAML\Module\consent\Store $store
+     */
+    public function setStore(Store $store): void
+    {
+        $this->store = $store;
     }
 
 
@@ -184,7 +201,7 @@ class ConsentAdmin
         Logger::info('consentAdmin: ' . $idp_entityid);
 
         // Parse consent config
-        $consent_storage = Store::parseStoreConfig($this->moduleConfig->getValue('consentadmin'));
+        $consent_storage = $this->store::parseStoreConfig($this->moduleConfig->getValue('consentadmin'));
 
         // Calc correct user ID hash
         $hashed_user_id = $this->consent::getHashedUserID($userid, $source);
@@ -244,10 +261,9 @@ class ConsentAdmin
 
         // Init template
         $template = new Template($this->config, 'consentAdmin:consentadmin.twig', 'consentAdmin:consentadmin');
+        $template->getLocalization()->addAttributeDomains();
         $translator = $template->getTranslator();
-        $translator->includeLanguageFile('attributes'); // attribute listings translated by this dictionary
 
-        $sp_empty_description = $translator->getTag('sp_empty_description');
         $sp_list = [];
 
         // Process consents for all SP
@@ -305,9 +321,8 @@ class ConsentAdmin
             }
 
             // Set description of SP
-            if (empty($sp_metadata['description']) || !is_array($sp_metadata['description'])) {
-                $sp_description = $sp_empty_description;
-            } else {
+            $sp_description = null;
+            if (!empty($sp_metadata['description']) && is_array($sp_metadata['description'])) {
                 $sp_description = $sp_metadata['description'];
             }
 

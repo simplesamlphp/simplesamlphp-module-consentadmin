@@ -31,7 +31,7 @@
     <tr class="{{ rowClass }}">
         <td>
             <span class='caSPName'>
-                <span title='{{ spValues.description|translateFromArray|escape('html') }}'>
+                <span title='{{ spValues.description|translateFromArray|default('(no description)')|escape('html') }}'>
                 {% if spValues.serviceurl is defined %}
                     {{ spValues.name|translateFromArray|default(spName)|escape('html') }}
                 {% else %}
@@ -48,7 +48,7 @@
         <td class="caAttributes">
             <div id="attributes_{{ loop.index0 }}">
             {% if showDescription %}
-                <p>{{ '{consentAdmin:consentadmin:consentadmin_purpose}'|trans }}{{ spValues.description|translateFromArray|escape('html') }}</p>
+                <p>{{ '{consentAdmin:consentadmin:consentadmin_purpose}'|trans }}{{ spValues.description|translateFromArray|default('(no description)')|escape('html') }}</p>
             {% endif %}
                 <ul>
                 {% for attrName, attrValue in spValues.attributes_by_sp %}
