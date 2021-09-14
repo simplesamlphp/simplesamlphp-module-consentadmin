@@ -190,7 +190,7 @@ class ConsentAdmin
         $sp_entityid = $request->get('cv');;
         $action = $request->get('action');
 
-        Logger::critical('consentAdmin: sp: ' . $sp_entityid . ' action: ' . $action);
+        Logger::notice('consentAdmin: sp: ' . $sp_entityid . ' action: ' . $action);
 
         // Remove services, whitch have consent disabled
         if (isset($idp_metadata['consent.disable'])) {
