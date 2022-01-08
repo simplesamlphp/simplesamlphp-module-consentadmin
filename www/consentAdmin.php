@@ -185,8 +185,7 @@ if ($action !== null && $sp_entityid !== null) {
     // init template to enable translation of status messages
     $template = new \SimpleSAML\XHTML\Template(
         $config,
-        'consentAdmin:consentadminajax.twig',
-        'consentAdmin:consentadmin'
+        'consentAdmin:consentadminajax.twig'
     );
     $translator = $template->getTranslator();
 
@@ -239,7 +238,7 @@ foreach ($user_consent_list as $c) {
 $template_sp_content = [];
 
 // Init template
-$template = new \SimpleSAML\XHTML\Template($config, 'consentAdmin:consentadmin.twig', 'consentAdmin:consentadmin');
+$template = new \SimpleSAML\XHTML\Template($config, 'consentAdmin:consentadmin.twig');
 $translator = $template->getTranslator();
 $translator->includeLanguageFile('attributes'); // attribute listings translated by this dictionary
 
