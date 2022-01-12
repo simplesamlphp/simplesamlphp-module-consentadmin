@@ -27,9 +27,6 @@ msgstr "Tjänsteleverantör"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Samtycke borttaget"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Samtyckesadministration"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Visa"
 

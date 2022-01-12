@@ -27,9 +27,6 @@ msgstr "Zerbitzu hornitzailea"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Onespena ezabatua"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Onespenaren kudeaketa"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Erakutsi"
 

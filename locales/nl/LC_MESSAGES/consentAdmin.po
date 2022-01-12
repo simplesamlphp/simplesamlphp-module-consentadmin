@@ -27,9 +27,6 @@ msgstr "Service Provider"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Toestemming Verwijderd"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Toestemming Beheer"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Bekijk"
 

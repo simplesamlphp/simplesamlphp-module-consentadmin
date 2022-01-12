@@ -27,9 +27,6 @@ msgstr "服務提供者"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "同意移除"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "管轄許可"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "顯示"
 

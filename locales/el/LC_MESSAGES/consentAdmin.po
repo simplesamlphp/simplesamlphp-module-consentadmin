@@ -27,9 +27,6 @@ msgstr "Πάροχος Υπηρεσιών"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Η συγκατάθεση αναιρέθηκε"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Διαχείριση Δηλώσεων Συγκατάθεσης"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Εμφάνιση"
 

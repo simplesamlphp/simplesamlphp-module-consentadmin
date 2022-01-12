@@ -27,9 +27,6 @@ msgstr "Szolgáltató"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Hozzájárulás visszavonva"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Adatkezelési hozzájárulások kezelése"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Attribútumok megjelenítése"
 

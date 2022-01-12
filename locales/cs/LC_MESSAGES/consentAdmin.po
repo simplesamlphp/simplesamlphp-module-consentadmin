@@ -28,9 +28,6 @@ msgstr "Poskytovatel služeb"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Odebrané povolení"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Administrace povolení"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Zobrazit"
 

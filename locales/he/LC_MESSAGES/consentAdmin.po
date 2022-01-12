@@ -27,9 +27,6 @@ msgstr "ספק שירות"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "הסכמה הוסרה"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "מנהל הסכמותת"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "הצג"
 

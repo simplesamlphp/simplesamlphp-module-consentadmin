@@ -28,9 +28,6 @@ msgstr "Paslaugos tiekėjas"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Leidimas pašalintas"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Leidimų administravimas"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Parodyti"
 

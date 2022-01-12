@@ -28,9 +28,6 @@ msgstr "Furnizor de servicii"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Acordul a fost înlăturat"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Administrarea acordurilor (consimțămintelor)"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Arată"
 

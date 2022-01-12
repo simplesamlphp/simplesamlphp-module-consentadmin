@@ -27,9 +27,6 @@ msgstr "Diensteanbieter"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Einverständnis entfernt"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Verwaltung von Einverständniserklärungen"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Zeige an"
 

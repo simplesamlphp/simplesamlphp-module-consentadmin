@@ -27,9 +27,6 @@ msgstr "Teenusepakkuja"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Nõusolek eemaldatud"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Nõusoleku administreerimine"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Näita"
 

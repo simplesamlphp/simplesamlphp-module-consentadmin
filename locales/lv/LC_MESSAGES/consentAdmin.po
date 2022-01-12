@@ -28,9 +28,6 @@ msgstr "Servisa piegādātājs"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Noņemtie noteikumi"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Noteikumu administrators"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Parādīt"
 

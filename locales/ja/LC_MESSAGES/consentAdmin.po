@@ -27,9 +27,6 @@ msgstr "サービスプロバイダ"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "承認が削除されました"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "承認管理"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "表示"
 

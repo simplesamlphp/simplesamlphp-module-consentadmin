@@ -28,9 +28,6 @@ msgstr "Davalac Servisa"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Dozvola uklonjena"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Administracija dozvola"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Prikaži"
 

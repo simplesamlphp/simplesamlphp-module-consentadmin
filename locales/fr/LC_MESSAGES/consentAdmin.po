@@ -27,9 +27,6 @@ msgstr "Fournisseurs de service"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Consentement révoqué"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Administration des consentements"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Voir"
 

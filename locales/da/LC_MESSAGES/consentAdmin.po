@@ -27,9 +27,6 @@ msgstr "Service Provider"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Samtykke slettet"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Administrer dine samtykker"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Vis"
 

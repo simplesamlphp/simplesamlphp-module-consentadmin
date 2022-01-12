@@ -28,9 +28,6 @@ msgstr "Ponudnik storitve"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Privolitev razveljavljena"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Upravljanje s privolitvami"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Prikaži"
 

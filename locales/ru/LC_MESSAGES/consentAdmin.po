@@ -28,9 +28,6 @@ msgstr "Сервис провайдер"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Согласие отозвано"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Управление согласием"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Показать"
 

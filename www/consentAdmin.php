@@ -321,7 +321,6 @@ foreach ($all_sp_metadata as $sp_entityid => $sp_values) {
     ];
 }
 
-$template->data['header'] = 'Consent Administration';
 $template->data['spList'] = $sp_list;
 $template->data['showDescription'] = $cA_config->getValue('showDescription');
 $template->send();

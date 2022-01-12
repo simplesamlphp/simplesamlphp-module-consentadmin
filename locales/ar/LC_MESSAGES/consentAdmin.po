@@ -28,9 +28,6 @@ msgstr "مقدم الخدمة"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "تم حذف الموافقة"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "ادارة الموافقة"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "اظهار"
 

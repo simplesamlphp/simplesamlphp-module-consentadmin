@@ -27,9 +27,6 @@ msgstr "Service Provider"
 msgid "{consentAdmin:consentadmin:removed}"
 msgstr "Consent telah dibuang"
 
-msgid "{consentAdmin:consentadmin:consentadmin_header}"
-msgstr "Administrasi Consent"
-
 msgid "{consentAdmin:consentadmin:show}"
 msgstr "Perlihatkan"
 
