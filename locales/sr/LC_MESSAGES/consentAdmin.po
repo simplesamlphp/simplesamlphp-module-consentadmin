@@ -78,7 +78,7 @@ msgstr "Dozvola dodata"
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identitet"
 
-msgid "Injected attribut"
+msgid "Injected attribute"
 msgstr "Ubačeni atribut"
 
 msgid "Show"

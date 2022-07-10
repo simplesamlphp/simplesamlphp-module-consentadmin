@@ -79,7 +79,7 @@ msgstr "Acordul a fost adăugat"
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identitate"
 
-msgid "Injected attribut"
+msgid "Injected attribute"
 msgstr "Atribut introdus"
 
 msgid "Show"

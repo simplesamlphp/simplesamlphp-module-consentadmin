@@ -163,7 +163,7 @@ if (!empty($_GET['action'])) {
 
 \SimpleSAML\Logger::critical('consentAdmin: sp: ' . $sp_entityid . ' action: ' . $action);
 
-// Remove services, whitch have consent disabled
+// Remove services, which have consent disabled
 if (isset($idp_metadata['consent.disable'])) {
     foreach ($idp_metadata['consent.disable'] as $disable) {
         if (array_key_exists($disable, $all_sp_metadata)) {

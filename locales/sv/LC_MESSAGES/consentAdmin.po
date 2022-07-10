@@ -77,7 +77,7 @@ msgstr "Samtycke tillagt"
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identitet"
 
-msgid "Injected attribut"
+msgid "Injected attribute"
 msgstr "Tillfört attribut"
 
 msgid "Show"

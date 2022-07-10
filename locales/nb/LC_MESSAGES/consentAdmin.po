@@ -77,7 +77,7 @@ msgstr "Samtykke gitt"
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identitet"
 
-msgid "Injected attribut"
+msgid "Injected attribute"
 msgstr "Persondata lagt til"
 
 msgid "Show"

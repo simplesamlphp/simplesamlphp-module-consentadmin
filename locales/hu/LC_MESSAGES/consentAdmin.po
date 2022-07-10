@@ -76,7 +76,7 @@ msgstr "Hozzájárulás rögzítve"
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Azonosság"
 
-msgid "Injected attribut"
+msgid "Injected attribute"
 msgstr "Attribútum beszúrása"
 
 msgid "Show"

@@ -76,7 +76,7 @@ msgstr "已经添加的许可"
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "身份"
 
-msgid "Injected attribut"
+msgid "Injected attribute"
 msgstr "注入的属性"
 
 msgid "Show"

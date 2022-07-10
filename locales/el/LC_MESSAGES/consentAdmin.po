@@ -76,7 +76,7 @@ msgstr "Η συγκατάθεση προστέθηκε"
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Ταυτότητα"
 
-msgid "Injected attribut"
+msgid "Injected attribute"
 msgstr "Εισαχθέν στοιχείο"
 
 msgid "Show"

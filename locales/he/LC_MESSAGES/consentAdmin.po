@@ -76,7 +76,7 @@ msgstr "הסכמה הוספה"
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "זהות"
 
-msgid "Injected attribut"
+msgid "Injected attribute"
 msgstr "מאפיין מוזרק"
 
 msgid "Show"

@@ -79,7 +79,7 @@ msgstr "Toestemming Toegevoegd"
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identiteit"
 
-msgid "Injected attribut"
+msgid "Injected attribute"
 msgstr "Geïnjecteerd attibuut"
 
 msgid "Show"

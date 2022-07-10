@@ -79,7 +79,7 @@ msgstr "Consent telah ditambahkan"
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identitas"
 
-msgid "Injected attribut"
+msgid "Injected attribute"
 msgstr "Attribut yang diinjeksi"
 
 msgid "Show"

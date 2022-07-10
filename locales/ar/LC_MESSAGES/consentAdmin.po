@@ -76,7 +76,7 @@ msgstr "تمت اضافة الموافقة"
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "الهوية"
 
-msgid "Injected attribut"
+msgid "Injected attribute"
 msgstr "السمات التي تم تقديمها"
 
 msgid "Show"

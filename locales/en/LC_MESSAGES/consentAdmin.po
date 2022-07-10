@@ -34,7 +34,7 @@ msgid "{consentAdmin:consentadmin:attribute_org}"
 msgstr "Organisation"
 
 msgid "{consentAdmin:consentadmin:attribute_injected}"
-msgstr "Injected attribut"
+msgstr "Injected attribute"
 
 msgid "{consentAdmin:consentadmin:show_hide_attributes}"
 msgstr "show/hide attributes"
@@ -79,8 +79,8 @@ msgstr "Consent Added"
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identity"
 
-msgid "Injected attribut"
-msgstr "Injected attribut"
+msgid "Injected attribute"
+msgstr "Injected attribute"
 
 msgid "Show"
 msgstr "Show"

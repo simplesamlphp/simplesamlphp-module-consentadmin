@@ -76,7 +76,7 @@ msgstr "同意新增"
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "身分"
 
-msgid "Injected attribut"
+msgid "Injected attribute"
 msgstr "加入屬性"
 
 msgid "Show"

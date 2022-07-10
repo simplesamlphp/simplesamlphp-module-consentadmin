@@ -77,7 +77,7 @@ msgstr "Onespena gehitua"
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identitatea"
 
-msgid "Injected attribut"
+msgid "Injected attribute"
 msgstr "Atributua sartuta"
 
 msgid "Show"

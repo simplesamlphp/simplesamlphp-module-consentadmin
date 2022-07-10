@@ -78,7 +78,7 @@ msgstr "Pievienotie noteikumi"
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identitāte"
 
-msgid "Injected attribut"
+msgid "Injected attribute"
 msgstr "Ievietots atribūts"
 
 msgid "Show"

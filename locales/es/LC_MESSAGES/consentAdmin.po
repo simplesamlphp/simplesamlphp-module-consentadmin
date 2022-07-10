@@ -79,7 +79,7 @@ msgstr "Consentimiento añadido"
 msgid "{consentAdmin:consentadmin:attribute_id}"
 msgstr "Identidad"
 
-msgid "Injected attribut"
+msgid "Injected attribute"
 msgstr "Atributo inyectado"
 
 msgid "Show"
