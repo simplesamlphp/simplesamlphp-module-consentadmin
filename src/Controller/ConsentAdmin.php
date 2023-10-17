@@ -131,26 +131,31 @@ class ConsentAdmin
     /**
      * @param \Symfony\Component\HttpFoundation\Request $request The current request.
      *
+     * @return void
+     */
+    public function logout(Request $request): void
+    {
+        $authority = $this->moduleConfig->getValue('authority');
+        $as = new $this->authSimple($authority);
+
+        $returnURL = $this->moduleConfig->getValue('returnURL');
+        $as->logout($returnURL);
+    }
+
+
+    /**
+     * @param \Symfony\Component\HttpFoundation\Request $request The current request.
+     *
      * @return \SimpleSAML\XHTML\Template
      */
     public function main(Request $request): Template
     {
-        $authority = $this->moduleConfig->getValue('authority');
-
-        $as = new $this->authSimple($authority);
-
-        // If request is a logout request
-        $logout = $request->get('logout');
-        if ($logout !== null) {
-            $returnURL = $this->moduleConfig->getValue('returnURL');
-            $as->logout($returnURL);
-        }
-
         $hashAttributes = $this->moduleConfig->getOptionalValue('attributes.hash', false);
-
         $excludeAttributes = $this->moduleConfig->getOptionalValue('attributes.exclude', []);
 
         // Check if valid local session exists
+        $authority = $this->moduleConfig->getValue('authority');
+        $as = new $this->authSimple($authority);
         $as->requireAuth();
 
         // Get released attributes
