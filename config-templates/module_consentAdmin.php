@@ -31,4 +31,7 @@ $config = [
 
     // Set authority
     'authority' => 'saml2',
+
+    // The attribute to use as user identifier (defaults to eduPersonPrincipalName
+    'identifyingAttribute' => 'eduPersonPrincipalName',
 ];

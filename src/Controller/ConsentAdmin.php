@@ -15,6 +15,14 @@ use SimpleSAML\Session;
 use SimpleSAML\XHTML\Template;
 use Symfony\Component\HttpFoundation\Request;
 
+use function array_key_exists;
+use function in_array;
+use function is_array;
+use function is_string;
+use function sprintf;
+use function strpos;
+use function substr;
+
 /**
  * Controller class for the consentadmin module.
  *
@@ -138,9 +146,9 @@ class ConsentAdmin
             $as->logout($returnURL);
         }
 
-        $hashAttributes = $this->moduleConfig->getValue('attributes.hash', false);
+        $hashAttributes = $this->moduleConfig->getOptionalValue('attributes.hash', false);
 
-        $excludeAttributes = $this->moduleConfig->getValue('attributes.exclude', []);
+        $excludeAttributes = $this->moduleConfig->getOptionalValue('attributes.exclude', []);
 
         // Check if valid local session exists
         $as->requireAuth();
@@ -167,12 +175,7 @@ class ConsentAdmin
         }
 
         // Get user ID
-        if (isset($idp_metadata['userid.attribute']) && is_string($idp_metadata['userid.attribute'])) {
-            $userid_attributename = $idp_metadata['userid.attribute'];
-        } else {
-            $userid_attributename = 'eduPersonPrincipalName';
-        }
-
+        $userid_attributename = $cA_config->getOptionalString('identifyingAttribute', 'eduPersonPrincipalName');
         $userids = $attributes[$userid_attributename];
 
         if (empty($userids)) {
@@ -187,8 +190,8 @@ class ConsentAdmin
         // Get all SP metadata
         $all_sp_metadata = $metadata->getList('saml20-sp-remote');
 
-        $sp_entityid = $request->get('cv');;
-        $action = $request->get('action');
+        $sp_entityid = $request->query->get('cv');;
+        $action = $request->query->get('action');
 
         Logger::notice('consentAdmin: sp: ' . $sp_entityid . ' action: ' . $action);
 
@@ -297,17 +300,6 @@ class ConsentAdmin
                 $sp_status = "none";
             }
 
-            // Set name of SP
-            if (isset($sp_values['name']) && is_array($sp_values['name'])) {
-                $sp_name = $sp_metadata['name'];
-            } elseif (isset($sp_values['name']) && is_string($sp_values['name'])) {
-                $sp_name = $sp_metadata['name'];
-            } elseif (isset($sp_values['OrganizationDisplayName']) && is_array($sp_values['OrganizationDisplayName'])) {
-                $sp_name = $sp_metadata['OrganizationDisplayName'];
-            } else {
-                $sp_name = $sp_entityid;
-            }
-
             // Set description of SP
             $sp_description = null;
             if (!empty($sp_metadata['description']) && is_array($sp_metadata['description'])) {
@@ -320,7 +312,7 @@ class ConsentAdmin
             // Fill out array for the template
             $sp_list[$sp_entityid] = [
                 'spentityid'       => $sp_entityid,
-                'name'             => $sp_name,
+                'name'             => $template->getEntityDisplayName($sp_metadata),
                 'description'      => $sp_description,
                 'consentStatus'    => $sp_status,
                 'consentValue'     => $sp_entityid,
