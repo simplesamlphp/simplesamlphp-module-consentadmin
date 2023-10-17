@@ -30,22 +30,22 @@
 
     <tr class="{{ rowClass }}">
         <td>
-            <span class='caSPName'>
+            <span class='ca-sp-name'>
                 <span title='{{ spValues.description|translateFromArray|default('(no description)')|escape('html') }}'>
                 {% if spValues.serviceurl is defined %}
                     {{ spValues.name|translateFromArray|default(spName)|escape('html') }}
                 {% else %}
-                    <a class="serviceUrl" href="{{ spValues.serviceurl }}">{{ spValues.name|translateFromArray|default(spName)|escape('html') }}</a>
+                    <a class="service-url" href="{{ spValues.serviceurl }}">{{ spValues.name|translateFromArray|default(spName)|escape('html') }}</a>
                 {% endif %}
                 </span>
-                <span class="show_hide" id="show_hide_{{ loop.index0 }}">
+                <span class="show-hide" id="show_hide_{{ loop.index0 }}">
                     <span id="showing_{{ loop.index0 }}">{{ '{consentAdmin:consentadmin:show}'|trans }}</span>
                     <span id="hiding_{{ loop.index0 }}">{{ '{consentAdmin:consentadmin:hide}'|trans }}</span>
                     {{ '{consentAdmin:consentadmin:attributes_text}'|trans }}
                 </span>
             </span>
         </td>
-        <td class="caAttributes">
+        <td>
             <div id="attributes_{{ loop.index0 }}">
             {% if showDescription %}
                 <p>{{ '{consentAdmin:consentadmin:consentadmin_purpose}'|trans }}{{ spValues.description|translateFromArray|default('(no description)')|escape('html') }}</p>
@@ -67,7 +67,7 @@
                 </ul>
             </div>
         </td>
-        <td class="caAllowed">
+        <td class="ca-allowed">
             <input class="checkbox" id="checkbox_{{ loop.index0 }}" value='{{ spValues.consentValue }}' type='checkbox'{% if spValues.consentStatus == 'ok'%} checked="checked"{% endif %} /><span id="consentText_{{ loop.index0 }}">{% if spValues.consentStatus == 'changed' %}attributes has changed{% endif %}</span>
         </td>
     </tr>
