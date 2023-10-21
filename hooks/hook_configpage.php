@@ -15,7 +15,7 @@ use SimpleSAML\XHTML\Template;
 function consentAdmin_hook_configpage(Template &$template): void
 {
     $template->data['links'][] = [
-        'href' => Module::getModuleURL('consentAdmin/consentAdmin.php'),
+        'href' => Module::getModuleURL('consentAdmin/'),
         'text' => Translate::noop('Consent administration'),
     ];
 
