@@ -180,7 +180,7 @@ class ConsentAdmin
         }
 
         // Get user ID
-        $userid_attributename = $cA_config->getOptionalString('identifyingAttribute', 'eduPersonPrincipalName');
+        $userid_attributename = $this->moduleConfig->getOptionalString('identifyingAttribute', 'eduPersonPrincipalName');
         $userids = $attributes[$userid_attributename];
 
         if (empty($userids)) {
