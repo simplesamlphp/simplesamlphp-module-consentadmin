@@ -7,7 +7,8 @@
 >
     <projectFiles>
         <directory name="hooks" />
-        <directory name="www" />
+        <directory name="public" />
+        <directory name="src" />
     </projectFiles>
 
     <issueHandlers>

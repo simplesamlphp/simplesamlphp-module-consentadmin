@@ -2,10 +2,8 @@
 
 declare(strict_types=1);
 
-namespace SimpleSAML\Test\Module\consentadmin\Controller;
+namespace SimpleSAML\Test\Module\consentAdmin\Controller;
 
-use Exception;
-use PDO;
 use PHPUnit\Framework\TestCase;
 use SimpleSAML\Auth;
 use SimpleSAML\Configuration;
@@ -13,7 +11,7 @@ use SimpleSAML\Metadata\MetaDataStorageHandler;
 use SimpleSAML\Module\consent\Auth\Process\Consent;
 use SimpleSAML\Module\consent\Consent\Store\Database;
 use SimpleSAML\Module\consent\Store;
-use SimpleSAML\Module\consentadmin\Controller;
+use SimpleSAML\Module\consentAdmin\Controller;
 use SimpleSAML\Session;
 use SimpleSAML\XHTML\Template;
 use Symfony\Component\HttpFoundation\Request;
@@ -21,7 +19,7 @@ use Symfony\Component\HttpFoundation\Request;
 /**
  * Set of tests for the controllers in the "consentadmin" module.
  *
- * @covers \SimpleSAML\Module\consentadmin\Controller\ConsentAdmin
+ * @covers \SimpleSAML\Module\consentAdmin\Controller\ConsentAdmin
  */
 class ConsentAdminTest extends TestCase
 {
@@ -73,6 +71,7 @@ class ConsentAdminTest extends TestCase
                         'consent:Database',
                         'dsn' => 'sqlite::memory:',
                     ],
+                    'showDescription' => true,
                 ],
                 '[ARRAY]',
                 'simplesaml'
@@ -107,7 +106,7 @@ class ConsentAdminTest extends TestCase
             {
                 return ['eduPersonPrincipalName' => 'tester'];
             }
-            public function getAuthData(string $name = '')
+            public function getAuthData(string $name = ''): mixed
             {
                 if ($name === 'saml:sp:IdP') {
                     return 'localhost';
@@ -146,35 +145,44 @@ class ConsentAdminTest extends TestCase
             }
         };
 
-        $this->store = new class([]) extends Store {
-            public function __construct()
+        $this->store = new class ([]) extends Store {
+            public function __construct(array $config)
             {
                 // stub
             }
-            public function saveConsent(string $userId, string $destinationId, string $attributeSet): bool {
+            public function saveConsent(string $userId, string $destinationId, string $attributeSet): bool
+            {
                  return true;
             }
-            public function deleteConsent(string $hashed_user_id, string $targeted_id): int {
+            public function deleteConsent(string $userId, string $destinationId): int
+            {
                 return 1;
             }
-            public function getConsents(string $userId): array {
+            public function getConsents(string $userId): array
+            {
                 return [];
             }
-            public function hasConsent(string $userId, string $destinationId, string $attributeSet): bool {
+            public function hasConsent(string $userId, string $destinationId, string $attributeSet): bool
+            {
                 return true;
             }
-            public static function parseStoreConfig($config): Store {
-                return new class($config) extends Database {
-                    public function saveConsent(string $userId, string $destinationId, string $attributeSet): bool {
+            public static function parseStoreConfig($config): Store
+            {
+                return new class ($config) extends Database {
+                    public function saveConsent(string $userId, string $destinationId, string $attributeSet): bool
+                    {
                         return true;
                     }
-                    public function deleteConsent(string $hashed_user_id, string $targeted_id): int {
+                    public function deleteConsent(string $userId, string $destinationId): int
+                    {
                         return 1;
                     }
-                    public function getConsents(string $userId): array {
+                    public function getConsents(string $userId): array
+                    {
                         return [];
                     }
-                    public function hasConsent(string $userId, string $destinationId, string $attributeSet): bool {
+                    public function hasConsent(string $userId, string $destinationId, string $attributeSet): bool
+                    {
                         return true;
                     }
                 };

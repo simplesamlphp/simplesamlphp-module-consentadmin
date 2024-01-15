@@ -1,2 +1,6 @@
 {
+  "symbol-whitelist": [
+    "SimpleSAML\\Module\\consent\\Auth\\Process\\Consent",
+    "SimpleSAML\\Module\\consent\\Store"
+  ]
 }

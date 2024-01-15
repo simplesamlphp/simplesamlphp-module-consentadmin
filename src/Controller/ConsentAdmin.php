@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SimpleSAML\Module\consentadmin\Controller;
+namespace SimpleSAML\Module\consentAdmin\Controller;
 
 use Exception;
 use SimpleSAML\Auth;
@@ -18,7 +18,6 @@ use Symfony\Component\HttpFoundation\Request;
 use function array_key_exists;
 use function in_array;
 use function is_array;
-use function is_string;
 use function sprintf;
 use function strpos;
 use function substr;
@@ -28,7 +27,7 @@ use function substr;
  *
  * This class serves the different views available in the module.
  *
- * @package simplesamlphp/simplesamlphp-module-consentadmin
+ * @package simplesamlphp/simplesamlphp-module-consentAdmin
  */
 class ConsentAdmin
 {
@@ -180,7 +179,10 @@ class ConsentAdmin
         }
 
         // Get user ID
-        $userid_attributename = $this->moduleConfig->getOptionalString('identifyingAttribute', 'eduPersonPrincipalName');
+        $userid_attributename = $this->moduleConfig->getOptionalString(
+            'identifyingAttribute',
+            'eduPersonPrincipalName',
+        );
         $userids = $attributes[$userid_attributename];
 
         if (empty($userids)) {
@@ -195,7 +197,7 @@ class ConsentAdmin
         // Get all SP metadata
         $all_sp_metadata = $metadata->getList('saml20-sp-remote');
 
-        $sp_entityid = $request->query->get('cv');;
+        $sp_entityid = $request->query->get('cv');
         $action = $request->query->get('action');
 
         Logger::notice('consentAdmin: sp: ' . $sp_entityid . ' action: ' . $action);
@@ -328,7 +330,7 @@ class ConsentAdmin
 
         $template->data['header'] = 'Consent Administration';
         $template->data['spList'] = $sp_list;
-        $template->data['showDescription'] = $this->moduleConfig->getValue('showDescription');
+        $template->data['showDescription'] = $this->moduleConfig->getBoolean('showDescription');
 
         return $template;
     }
