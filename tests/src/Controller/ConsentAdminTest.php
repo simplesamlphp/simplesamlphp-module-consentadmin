@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace SimpleSAML\Test\Module\consentAdmin\Controller;
 
+use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
 use SimpleSAML\Auth;
 use SimpleSAML\Configuration;
@@ -18,9 +19,8 @@ use Symfony\Component\HttpFoundation\Request;
 
 /**
  * Set of tests for the controllers in the "consentadmin" module.
- *
- * @covers \SimpleSAML\Module\consentAdmin\Controller\ConsentAdmin
  */
+#[CoversClass(Controller\ConsentAdmin::class)]
 class ConsentAdminTest extends TestCase
 {
     /** @var \SimpleSAML\Configuration */
