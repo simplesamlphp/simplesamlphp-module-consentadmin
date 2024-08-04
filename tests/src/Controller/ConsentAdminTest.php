@@ -59,7 +59,7 @@ class ConsentAdminTest extends TestCase
                 ],
             ],
             '[ARRAY]',
-            'simplesaml'
+            'simplesaml',
         );
         Configuration::setPreLoadedConfig($this->config, 'config.php');
 
@@ -74,9 +74,9 @@ class ConsentAdminTest extends TestCase
                     'showDescription' => true,
                 ],
                 '[ARRAY]',
-                'simplesaml'
+                'simplesaml',
             ),
-            'module_consentAdmin.php'
+            'module_consentAdmin.php',
         );
 
         Configuration::setPreLoadedConfig(
@@ -86,9 +86,9 @@ class ConsentAdminTest extends TestCase
                         'exampleauth:StaticSource',
                         'eduPersonPrincipalName' => ['testuser@simplesamlphp.org'],
                     ],
-                ]
+                ],
             ),
-            'authsources.php'
+            'authsources.php',
         );
 
         $this->session = Session::getSessionFromRequest();
@@ -204,7 +204,7 @@ class ConsentAdminTest extends TestCase
         $request = Request::create(
             '/',
             'GET',
-            ['action' => 'true', 'cv' => 'urn:some:entity']
+            ['action' => 'true', 'cv' => 'urn:some:entity'],
         );
 
         $c = new Controller\ConsentAdmin($this->config, $this->session);
@@ -232,7 +232,7 @@ class ConsentAdminTest extends TestCase
         $request = Request::create(
             '/',
             'GET',
-            ['action' => 'false', 'cv' => 'urn:some:entity']
+            ['action' => 'false', 'cv' => 'urn:some:entity'],
         );
 
         $c = new Controller\ConsentAdmin($this->config, $this->session);
@@ -260,7 +260,7 @@ class ConsentAdminTest extends TestCase
         $request = Request::create(
             '/',
             'GET',
-            ['action' => 'unknown', 'cv' => 'urn:some:entity']
+            ['action' => 'unknown', 'cv' => 'urn:some:entity'],
         );
 
         $c = new Controller\ConsentAdmin($this->config, $this->session);
@@ -287,7 +287,7 @@ class ConsentAdminTest extends TestCase
         $request = Request::create(
             '/',
             'GET',
-            []
+            [],
         );
 
         $c = new Controller\ConsentAdmin($this->config, $this->session);

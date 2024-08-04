@@ -74,7 +74,7 @@ class ConsentAdmin
      */
     public function __construct(
         Configuration $config,
-        Session $session
+        Session $session,
     ) {
         $this->config = $config;
         $this->moduleConfig = Configuration::getConfig('module_consentAdmin.php');
@@ -188,7 +188,7 @@ class ConsentAdmin
         if (empty($userids)) {
             throw new Exception(sprintf(
                 'Could not generate useridentifier for storing consent. Attribute [%s] was not available.',
-                $userid_attributename
+                $userid_attributename,
             ));
         }
 
@@ -225,7 +225,7 @@ class ConsentAdmin
             $template = new Template(
                 $this->config,
                 'consentAdmin:consentadminajax.twig',
-                'consentAdmin:consentadmin'
+                'consentAdmin:consentadmin',
             );
 
             // Get SP metadata
@@ -240,7 +240,7 @@ class ConsentAdmin
                 $attributes,
                 $userid,
                 $hashAttributes,
-                $excludeAttributes
+                $excludeAttributes,
             );
 
             // Add a consent (or update if attributes have changed and old consent for SP and IdP exists)
@@ -289,7 +289,7 @@ class ConsentAdmin
                 $attributes,
                 $userid,
                 $hashAttributes,
-                $excludeAttributes
+                $excludeAttributes,
             );
 
             // Check if consent exists
@@ -358,7 +358,7 @@ class ConsentAdmin
         array $attributes,
         string $userid,
         bool $hashAttributes,
-        array $excludeAttributes
+        array $excludeAttributes,
     ): array {
         /*
          * Create a new processing chain
