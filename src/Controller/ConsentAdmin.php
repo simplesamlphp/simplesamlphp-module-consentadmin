@@ -225,7 +225,6 @@ class ConsentAdmin
             $template = new Template(
                 $this->config,
                 'consentAdmin:consentadminajax.twig',
-                'consentAdmin:consentadmin',
             );
 
             // Get SP metadata
@@ -270,7 +269,7 @@ class ConsentAdmin
         }
 
         // Init template
-        $template = new Template($this->config, 'consentAdmin:consentadmin.twig', 'consentAdmin:consentadmin');
+        $template = new Template($this->config, 'consentAdmin:consentadmin.twig');
         $template->getLocalization()->addAttributeDomains();
 
         $sp_list = [];
@@ -340,15 +339,15 @@ class ConsentAdmin
      * Runs the processing chain and ignores all filter which have user
      * interaction.
      *
-     * @param array $idp_metadata
+     * @param array<mixed> $idp_metadata
      * @param string $source
-     * @param array $sp_metadata
+     * @param array<mixed> $sp_metadata
      * @param string $sp_entityid
-     * @param array $attributes
+     * @param array<mixed> $attributes
      * @param string $userid
      * @param bool $hashAttributes
-     * @param array $excludeAttributes
-     * @return array
+     * @param string[] $excludeAttributes
+     * @return array<mixed>
      */
     private function driveProcessingChain(
         array $idp_metadata,
@@ -380,7 +379,7 @@ class ConsentAdmin
 
         /* we're being bridged, so add that info to the state */
         if (strpos($source, '-idp-remote|') !== false) {
-            /** @var int $i */
+            /** @var int<0, max> $i */
             $i = strpos($source, '|');
             $authProcState['saml:sp:IdP'] = substr($source, $i + 1);
         }

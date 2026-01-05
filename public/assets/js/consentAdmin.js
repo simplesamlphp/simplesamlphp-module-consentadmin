@@ -5,25 +5,25 @@ function checkConsent()
     var show_spid = this.id.charAt(this.id.length - 1);
     var checkbox = document.getElementById("checkbox_" + show_spid);
 
-    xmlHttp = GetXmlHttpObject()
+    xmlHttp = GetXmlHttpObject();
     if (xmlHttp === null) {
-        alert("Browser does not support HTTP Request")
-        return
+        alert("Browser does not support HTTP Request");
+        return;
     }
 
-    var url = "consentAdmin.php"
-    url = url + "?cv=" + checkbox.value
-    url = url + "&action=" + checkbox.checked
-    url = url + "&sid=" + Math.random()
+    var url = "consentAdmin.php";
+    url = url + "?cv=" + checkbox.value;
+    url = url + "&action=" + checkbox.checked;
+    url = url + "&sid=" + Math.random();
 
     xmlHttp.onreadystatechange = function () {
         if (xmlHttp.readyState == 4 || xmlHttp.readyState == "complete") {
             document.getElementById("consentText_" + show_spid).innerHTML = xmlHttp.responseText;
         }
-    }
+    };
 
-    xmlHttp.open("GET", url, true)
-    xmlHttp.send(null)
+    xmlHttp.open("GET", url, true);
+    xmlHttp.send(null);
 }
 
 // This function creates an XMLHttpRequest

@@ -14,7 +14,6 @@ use SimpleSAML\Module\consent\Consent\Store\Database;
 use SimpleSAML\Module\consent\Store;
 use SimpleSAML\Module\consentAdmin\Controller;
 use SimpleSAML\Session;
-use SimpleSAML\XHTML\Template;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
@@ -98,14 +97,20 @@ class ConsentAdminTest extends TestCase
             {
                 // stub
             }
+
+
             public function requireAuth(array $params = []): void
             {
                 // stub
             }
+
+
             public function getAttributes(): array
             {
                 return ['eduPersonPrincipalName' => 'tester'];
             }
+
+
             public function getAuthData(string $name = ''): mixed
             {
                 if ($name === 'saml:sp:IdP') {
@@ -120,14 +125,20 @@ class ConsentAdminTest extends TestCase
             {
                 // stub
             }
+
+
             public function getMetaDataCurrentEntityID(string $set, string $type = 'entityid'): string
             {
                 return 'localhost/simplesaml';
             }
+
+
             public function getMetaData(?string $entityId, string $set): array
             {
                 return ['entityid' => 'localhost/simplesaml', 'metadata-set' => 'saml20-idp-hosted'];
             }
+
+
             public function getList(string $set = 'saml20-idp-hosted', bool $showExpired = false): array
             {
                 return [];
@@ -139,33 +150,45 @@ class ConsentAdminTest extends TestCase
             {
                 return 'abc123@simplesamlphp.org';
             }
+
+
             public static function getTargetedID(string $userid, string $source, string $destination): string
             {
                 return hash('sha1', 'abc123@simplesamlphp.org');
             }
         };
 
-        $this->store = new class ([]) extends Store {
-            public function __construct(array $config)
+        $this->store = new class () extends Store {
+            public function __construct()
             {
                 // stub
             }
+
+
             public function saveConsent(string $userId, string $destinationId, string $attributeSet): bool
             {
                  return true;
             }
+
+
             public function deleteConsent(string $userId, string $destinationId): int
             {
                 return 1;
             }
+
+
             public function getConsents(string $userId): array
             {
                 return [];
             }
+
+
             public function hasConsent(string $userId, string $destinationId, string $attributeSet): bool
             {
                 return true;
             }
+
+
             public static function parseStoreConfig($config): Store
             {
                 return new class ($config) extends Database {
@@ -173,14 +196,20 @@ class ConsentAdminTest extends TestCase
                     {
                         return true;
                     }
+
+
                     public function deleteConsent(string $userId, string $destinationId): int
                     {
                         return 1;
                     }
+
+
                     public function getConsents(string $userId): array
                     {
                         return [];
                     }
+
+
                     public function hasConsent(string $userId, string $destinationId, string $attributeSet): bool
                     {
                         return true;
@@ -215,7 +244,6 @@ class ConsentAdminTest extends TestCase
         $result = $c->main($request);
 
         $this->assertTrue($result->isSuccessful());
-        $this->assertInstanceOf(Template::class, $result);
     }
 
 
@@ -243,7 +271,6 @@ class ConsentAdminTest extends TestCase
         $result = $c->main($request);
 
         $this->assertTrue($result->isSuccessful());
-        $this->assertInstanceOf(Template::class, $result);
     }
 
 
@@ -270,7 +297,6 @@ class ConsentAdminTest extends TestCase
         $result = $c->main($request);
 
         $this->assertTrue($result->isSuccessful());
-        $this->assertInstanceOf(Template::class, $result);
     }
 
 
@@ -298,6 +324,5 @@ class ConsentAdminTest extends TestCase
         $result = $c->main($request);
 
         $this->assertTrue($result->isSuccessful());
-        $this->assertInstanceOf(Template::class, $result);
     }
 }
