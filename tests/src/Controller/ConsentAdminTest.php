@@ -38,7 +38,7 @@ class ConsentAdminTest extends TestCase
     protected Store $store;
 
     /** @var \SimpleSAML\Metadata\MetaDataStorageHandler */
-    protected MetaDataStorageHandler $metadataStorageHandler;
+    protected MetaDataStorageHandler $metaDataStorageHandler;
 
 
     /**
@@ -120,7 +120,7 @@ class ConsentAdminTest extends TestCase
             }
         };
 
-        $this->metadataStorageHandler = new class () extends MetaDataStorageHandler {
+        $this->metaDataStorageHandler = new class () extends MetaDataStorageHandler {
             public function __construct()
             {
                 // stub
@@ -238,7 +238,7 @@ class ConsentAdminTest extends TestCase
 
         $c = new Controller\ConsentAdmin($this->config, $this->session);
         $c->setAuthSimple($this->authSimple);
-        $c->setMetadataStorageHandler($this->metadataStorageHandler);
+        $c->setMetaDataStorageHandler($this->metaDataStorageHandler);
         $c->setConsent($this->consent);
         $c->setStore($this->store);
         $result = $c->main($request);
@@ -265,7 +265,7 @@ class ConsentAdminTest extends TestCase
 
         $c = new Controller\ConsentAdmin($this->config, $this->session);
         $c->setAuthSimple($this->authSimple);
-        $c->setMetadataStorageHandler($this->metadataStorageHandler);
+        $c->setMetaDataStorageHandler($this->metaDataStorageHandler);
         $c->setConsent($this->consent);
         $c->setStore($this->store);
         $result = $c->main($request);
@@ -292,7 +292,7 @@ class ConsentAdminTest extends TestCase
 
         $c = new Controller\ConsentAdmin($this->config, $this->session);
         $c->setAuthSimple($this->authSimple);
-        $c->setMetadataStorageHandler($this->metadataStorageHandler);
+        $c->setMetaDataStorageHandler($this->metaDataStorageHandler);
         $c->setConsent($this->consent);
         $result = $c->main($request);
 
@@ -318,7 +318,7 @@ class ConsentAdminTest extends TestCase
 
         $c = new Controller\ConsentAdmin($this->config, $this->session);
         $c->setAuthSimple($this->authSimple);
-        $c->setMetadataStorageHandler($this->metadataStorageHandler);
+        $c->setMetaDataStorageHandler($this->metaDataStorageHandler);
         $c->setConsent($this->consent);
         $c->setStore($this->store);
         $result = $c->main($request);
