@@ -41,7 +41,7 @@ class ConsentAdmin
     protected Session $session;
 
     /** @var \SimpleSAML\Metadata\MetaDataStorageHandler */
-    protected MetaDataStorageHandler $metadataStorageHandler;
+    protected MetaDataStorageHandler $metaDataStorageHandler;
 
     /**
      * @var \SimpleSAML\Auth\Simple|string
@@ -78,7 +78,7 @@ class ConsentAdmin
     ) {
         $this->config = $config;
         $this->moduleConfig = Configuration::getConfig('module_consentAdmin.php');
-        $this->metadataStorageHandler = MetaDataStorageHandler::getMetadataHandler();
+        $this->metaDataStorageHandler = MetaDataStorageHandler::getMetadataHandler();
         $this->session = $session;
     }
 
@@ -110,9 +110,9 @@ class ConsentAdmin
      *
      * @param \SimpleSAML\Metadata\MetaDataStorageHandler $handler
      */
-    public function setMetadataStorageHandler(MetadataStorageHandler $handler): void
+    public function setMetaDataStorageHandler(MetaDataStorageHandler $handler): void
     {
-        $this->metadataStorageHandler = $handler;
+        $this->metaDataStorageHandler = $handler;
     }
 
 
@@ -161,7 +161,7 @@ class ConsentAdmin
         $attributes = $as->getAttributes();
 
         // Get metadata storage handler
-        $metadata = $this->metadataStorageHandler;
+        $metadata = $this->metaDataStorageHandler;
 
         /*
          * Get IdP id and metadata
